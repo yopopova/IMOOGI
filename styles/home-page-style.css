@@ -1,0 +1,15 @@
+/* Navigation bar settings */
+.menu {
+    background-color: #000000;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
