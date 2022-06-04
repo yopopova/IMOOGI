@@ -1,6 +1,16 @@
+html {
+    font: 16px/1.5 "Century Gothic", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Navigation bar settings */
 .menu {
     background-color: #000000;
+    padding: 20px;
 }
 
 .menu li {
@@ -12,4 +22,6 @@
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
 }
