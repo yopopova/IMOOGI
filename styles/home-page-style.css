@@ -25,3 +25,9 @@ html {
     font-weight: bold;
     padding: 15px;
 }
+
+/* Logo settings */
+.logo a img {
+    width: 150px;
+    height: 50px;
+}
