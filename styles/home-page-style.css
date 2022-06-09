@@ -7,9 +7,15 @@ html {
     padding: 0;
 }
 
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
 /* Navigation bar settings */
 .menu {
-    background-color: #000000;
     padding: 20px;
 }
 
