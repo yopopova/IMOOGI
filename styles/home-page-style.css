@@ -19,6 +19,8 @@ html {
 .site-logo a img {
     width: 150px;
     height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 /* Navigation bar settings */
