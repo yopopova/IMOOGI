@@ -7,11 +7,18 @@ html {
     padding: 0;
 }
 
+/* Website header settings */
 .site-header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000000;
+}
+
+/* Logo settings */
+.site-logo a img {
+    width: 150px;
+    height: 50px;
 }
 
 /* Navigation bar settings */
@@ -36,10 +43,4 @@ html {
 .current-page {
     text-decoration: underline;
     text-underline-offset: 5px;
-}
-
-/* Logo settings */
-.logo a img {
-    width: 150px;
-    height: 50px;
 }
