@@ -41,6 +41,12 @@ html {
     font-weight: bold;
 }
 
+.login a {
+    background-color: #ffa64d;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
 /* Current page settings */
 .current-page {
     text-decoration: underline;
