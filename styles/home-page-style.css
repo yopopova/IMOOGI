@@ -17,8 +17,8 @@ html {
 
 /* Logo settings */
 .site-logo a img {
-    width: 150px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
