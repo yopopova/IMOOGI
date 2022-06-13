@@ -52,3 +52,7 @@ html {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
+i {
+    color: #ffffff;
+}
