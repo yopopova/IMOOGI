@@ -5,6 +5,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Website header settings */
@@ -71,4 +72,8 @@ i {
     margin-left: 3em;
     width: 42%;
     color: #ffffff;
+}
+
+.banner-text p {
+    margin: 15px 0 40px;
 }
