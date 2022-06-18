@@ -77,3 +77,17 @@ i {
 .banner-text p {
     margin: 15px 0 40px;
 }
+
+.menu-btn {
+    background-color: #ffa64d;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
