@@ -66,3 +66,9 @@ i {
     display: flex;
     align-items: center;
 }
+
+.banner-text {
+    margin-left: 3em;
+    width: 42%;
+    color: #ffffff;
+}
