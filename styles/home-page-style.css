@@ -108,3 +108,9 @@ i {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
+.main-div div img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+}
