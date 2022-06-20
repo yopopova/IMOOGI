@@ -102,3 +102,9 @@ i {
     width: 25%;
     text-align: center;
 }
+
+.main-div div h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
