@@ -114,3 +114,11 @@ i {
     height: 180px;
     margin-bottom: 20px;
 }
+
+.site-extra-info {
+    background-image: url('https://img.freepik.com/free-photo/chicken-breast-with-buckwheat-vegetables_2829-18694.jpg?t=st=1655874453~exp=1655875053~hmac=6981a478e0afe7bbb20ec2a4914ae01e309e81164758f52aa516f0e3c4c66d68&w=996');
+    height: 12vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
