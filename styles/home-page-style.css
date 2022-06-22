@@ -121,4 +121,13 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.extra-info {
+    color: #ffffff;
+    text-align: center;
 }
