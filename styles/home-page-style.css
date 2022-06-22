@@ -79,6 +79,7 @@ i {
 }
 
 .menu-btn {
+    width: 25%;
     background-color: #ffa64d;
     border: none;
     border-radius: 15px;
@@ -130,4 +131,24 @@ i {
 .extra-info {
     color: #ffffff;
     text-align: center;
+}
+
+.extra-info p {
+    margin: 10px 0 30px;
+}
+
+.extra-info button {
+    margin: 0 20px;
+    width: 15%;
+    background-color: #ffa64d;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.extra-info button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
 }
