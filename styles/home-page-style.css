@@ -117,11 +117,11 @@ i {
 }
 
 .site-extra-info {
-    background-image: url('https://img.freepik.com/free-photo/chicken-breast-with-buckwheat-vegetables_2829-18694.jpg?t=st=1655874453~exp=1655875053~hmac=6981a478e0afe7bbb20ec2a4914ae01e309e81164758f52aa516f0e3c4c66d68&w=996');
-    height: 12vw;
+    background-image: url('https://img.freepik.com/free-photo/chicken-breast-with-buckwheat-vegetables_2829-18688.jpg?t=st=1656005118~exp=1656005718~hmac=aa511312abb10c555dc9f20df11fd10113ed9e8e02f65acef5b6c63ee94878e2&w=1380');
+    height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
