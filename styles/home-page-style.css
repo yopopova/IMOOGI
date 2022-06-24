@@ -152,3 +152,27 @@ i {
     font-weight: bold;
     color: #ffffff;
 }
+
+.site-customer-comments {
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-customer-comments div {
+    width: 25%;
+    display: block;
+    text-align: center;
+}
+
+.site-customer-comments div img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.customer-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
