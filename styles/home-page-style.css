@@ -169,6 +169,8 @@ i {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    border: 5px solid #ffa64d;
+    padding: 7px;
 }
 
 .customer-name {
