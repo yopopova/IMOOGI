@@ -183,14 +183,25 @@ i {
     background-color: #000000;
     padding: 30px;
     display: flex;
+    justify-content: space-around;
 }
 
 .footer-menu h3 {
     color: #ffffff;
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .footer-menu ul li a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.footer-contacts {
+    color: #ffffff;
+}
+
+.footer-contacts h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
