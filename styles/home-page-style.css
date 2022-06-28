@@ -238,4 +238,24 @@ i {
     .hamburger-menu.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .menu {
+        position: fixed;
+        left: 100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #000000;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .menu li {
+        margin: 16px 0;
+    }
+
+    .menu.active {
+        left: 0;
+    }
 }
