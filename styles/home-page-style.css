@@ -8,7 +8,6 @@ html {
     box-sizing: border-box;
 }
 
-/* Website header settings */
 .site-header {
     display: flex;
     align-items: center;
@@ -16,22 +15,20 @@ html {
     background-color: #000000;
 }
 
-/* Logo settings */
-.site-logo a img {
+.site-logo header a img {
     width: 180px;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-/* Navigation bar settings */
 .menu {
     padding: 20px;
 }
 
 .menu li {
-    list-style: none;
     display: inline-block;
+    list-style: none;
     padding: 15px;
 }
 
@@ -42,17 +39,43 @@ html {
     font-weight: bold;
 }
 
-.login a {
+.menu li a:hover {
+    color: #ffa64d;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-bar {
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.search-button {
+    background-color: #ffa64d;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    align-content: center;
+    margin-left: 5px;
+}
+
+.search-button i {
+    color: #ffffff;
+}
+
+/* .login a {
     background-color: #ffa64d;
     border-radius: 15px;
     padding: 10px 15px;
-}
+} */
 
 /* Current page settings */
-.current-page {
+/* .current-page {
     text-decoration: underline;
     text-underline-offset: 5px;
-}
+} */
 
 i {
     color: #ffffff;
@@ -267,7 +290,7 @@ i {
 
     .menu li {
         display: block;
-        margin: 16px 0;
+        /* margin: 16px 0; */
     }
 
     .menu.active {
