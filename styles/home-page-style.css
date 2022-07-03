@@ -277,7 +277,7 @@ i {
     }
 
     .menu {
-        position: fixed;
+        position: absolute;
         left: 100%;
         top: 60px;
         gap: 0;
