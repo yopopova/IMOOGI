@@ -275,6 +275,23 @@ i {
     padding-right: 30px;
 }
 
+.payment-methods h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.pay a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pay a i {
+    width: 30px;
+    height: 20px;
+    padding-right: 30px;
+}
+
 @media(max-width:768px) {
     .hamburger-menu {
         display: block;
