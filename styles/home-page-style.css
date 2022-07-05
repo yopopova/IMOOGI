@@ -258,6 +258,23 @@ i {
     margin-bottom: 10px;
 }
 
+.footer-social h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.social-icon a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icon a i {
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+}
+
 @media(max-width:768px) {
     .hamburger-menu {
         display: block;
