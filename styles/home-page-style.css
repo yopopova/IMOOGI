@@ -231,7 +231,16 @@ i {
     margin: 10px;
 }
 
-.site-footer {
+.site-footer hr {
+    /* border: 2px solid orange; */
+    /* width: 70%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 10%; */
+    /* margin: auto; */
+}
+
+.footer-main {
     background-color: #000000;
     padding: 30px;
     display: flex;
@@ -290,6 +299,30 @@ i {
     width: 30px;
     height: 20px;
     padding-right: 30px;
+}
+
+/* .h_line {
+    color: #ffffff;
+    background-color: #000000;
+} */
+
+.footer-extra-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #000000;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyright p {
+    color: #ffffff;
 }
 
 @media(max-width:768px) {
