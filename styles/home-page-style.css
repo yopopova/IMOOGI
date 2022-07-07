@@ -273,6 +273,18 @@ i {
     margin-bottom: 10px;
 }
 
+.footer-social ul li:nth-child(1) a i:hover {
+    color: #4867AA;
+}
+
+.footer-social ul li:nth-child(2) a i:hover {
+    color: #E24569;
+}
+
+.footer-social ul li:nth-child(3) a i:hover {
+    color: #1DA1F2;
+}
+
 .social-icon a {
     color: #ffffff;
     text-decoration: none;
@@ -282,6 +294,11 @@ i {
     width: 20px;
     height: 20px;
     padding-right: 30px;
+}
+
+.social-icon a i span {
+    font-family: "Century Gothic", sans-serif;
+    padding-left: 15px;
 }
 
 .payment-methods h3 {
