@@ -307,16 +307,37 @@ i {
     margin-bottom: 10px;
 }
 
+.payment-methods ul li:nth-child(1) a i:hover {
+    color: #1434CB;
+}
+
+.payment-methods ul li:nth-child(2) a i:hover {
+    color: #FF5F00;
+}
+
+.payment-methods ul li:nth-child(3) a i:hover {
+    color: #2790C3;
+}
+
+.payment-methods ul li:nth-child(4) a i:hover {
+    color: #6AB74C;
+}
+
+.pay a i span {
+    font-family: "Century Gothic", sans-serif;
+    padding-left: 15px;
+}
+
 .pay a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.pay a i {
+/* .pay a i {
     width: 30px;
     height: 20px;
     padding-right: 30px;
-}
+} */
 
 /* .h_line {
     color: #ffffff;
