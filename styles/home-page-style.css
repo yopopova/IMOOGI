@@ -44,6 +44,16 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.login a {
+    background-color: #ffa64d;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.menu li[class*="login"] a:hover {
+    color: #ffffff;
+}
+
 .search-bar {
     height: 25px;
     border: none;
@@ -65,23 +75,10 @@ html {
     color: #ffffff;
 }
 
-/* .login a {
-    background-color: #ffa64d;
-    border-radius: 15px;
-    padding: 10px 15px;
-} */
-
-/* Current page settings */
-/* .current-page {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-} */
-
-i {
+.shopping-cart i {
     color: #ffffff;
 }
 
-/* Hamburger menu */
 .hamburger-menu {
     display: none;
     cursor: pointer;
@@ -97,6 +94,7 @@ i {
     background-color: #ffffff;
 }
 
+/* Other settings */
 .hero-image {
     background-image: url('https://img.freepik.com/free-photo/stir-frying-beef-with-sweet-peppers-green-beans-rice_2829-20132.jpg?w=1380&t=st=1655276935~exp=1655277535~hmac=e012edab44bbc3802628b86ec2446a348d223693bdfd444c7fce23753c8d3009');
     height: 40vw;
@@ -364,6 +362,18 @@ i {
 }
 
 @media(max-width:768px) {
+
+    .login a {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .menu li[class*="login"] a:hover {
+        color: #ffa64d;
+        transition: all 0.3s ease-in-out;
+    }
+
     .hamburger-menu {
         display: block;
         /* width: auto; */
@@ -447,7 +457,7 @@ i {
         display: grid;
         align-self: start;
         /* grid-template-columns: auto; */
-        /* justify-self: start; */
+    /* justify-self: start; */
     /* } */
 
     /* .banner-text */
