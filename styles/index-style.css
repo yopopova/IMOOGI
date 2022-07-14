@@ -161,7 +161,7 @@ html {
 }
 
 .site-extra-info {
-    background-image: url('https://img.freepik.com/free-photo/chicken-breast-with-buckwheat-vegetables_2829-18688.jpg?t=st=1656005118~exp=1656005718~hmac=aa511312abb10c555dc9f20df11fd10113ed9e8e02f65acef5b6c63ee94878e2&w=1380');
+    background-image: url('https://img.freepik.com/free-photo/chinese-style-grilled-pork-called-char-siu-pork_1205-10519.jpg?t=st=1657702950~exp=1657703550~hmac=603b524bcd244e09e2e6c2d6443f0bd71b0bd2dc35ef4980f8c76526d1c0fd4c&w=996');
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +169,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .extra-info {
@@ -381,6 +380,11 @@ html {
         margin: 13px 0;
     }
 
+    .site-logo header a img {
+        width: 120px;
+        height: 40px;
+    }
+
     .login a {
         background-color: transparent;
         border-radius: 0;
@@ -393,7 +397,7 @@ html {
     }
 
     .shopping-cart {
-        margin: -300px;
+        margin: -150px;
     }
 
     .hamburger-menu {
@@ -413,9 +417,9 @@ html {
     }
 
     .menu {
-        position: absolute;
+        position: fixed;
         left: 100%;
-        top: 86px;
+        top: 66px;
         gap: 0;
         flex-direction: column;
         background-color: #000000;
@@ -457,16 +461,35 @@ html {
     .main-div {
         flex-direction: column;
         align-items: center;
+        gap: 70px;
     }
 
     .main-div div {
-        width: 50%;
-        margin: 30px 0;
+        width: 100%;
     }
 
-    /* .hero-image {
-        display: grid;
-    } */
+    .main-div div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .site-extra-info {
+        height: auto;
+    }
+
+    .extra-info {
+        padding: 20px;
+    }
+
+    .extra-info h1 {
+        font-size: 19px;
+    }
+
+    .extra-buttons button {
+        font-size: 2vw;
+        width: auto;
+        padding: 7px 12px;
+    }
 
     .site-customer-comments {
         display: flex;
@@ -476,7 +499,12 @@ html {
     }
 
     .site-customer-comments div {
-        width: 60%;
+        width: 100%;
+    }
+
+    .site-customer-comments div img {
+        width: 100px;
+        height: 100px;
     }
 
     .footer-main {
