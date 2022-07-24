@@ -1,0 +1,9 @@
+@import url(main-settings.css);
+
+.background {
+    background-image: url('https://img.freepik.com/free-photo/cabbage-kimchi-tomatoes-marinated-sauerkraut-sour-glass-jars-rustic-kitchen-table_2829-18677.jpg?t=st=1658642437~exp=1658643037~hmac=c432aacc56c26c94b0dd22be352c27dc63198ab413c4a5c1df4dc8e6a95b2412&w=1060');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
