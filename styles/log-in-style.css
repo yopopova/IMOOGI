@@ -1,9 +1,21 @@
 @import url(main-settings.css);
 
 .background {
-    background-image: url('https://img.freepik.com/free-photo/cabbage-kimchi-tomatoes-marinated-sauerkraut-sour-glass-jars-rustic-kitchen-table_2829-18677.jpg?t=st=1658642437~exp=1658643037~hmac=c432aacc56c26c94b0dd22be352c27dc63198ab413c4a5c1df4dc8e6a95b2412&w=1060');
+    background-image: url('https://img.freepik.com/free-photo/kimchi-cabbage-bowl_2829-18652.jpg?t=st=1658740808~exp=1658741408~hmac=28ae78ad1049c982c8460df2c63ac2ec97a7c6e3ee16090de48069610c3c38ff&w=996');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo > a > img {
+    width: 300px;
+    height: 100px;
 }
