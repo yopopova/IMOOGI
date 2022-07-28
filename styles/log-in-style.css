@@ -2,10 +2,12 @@
 
 .log-in-background {
     background-image: url('https://img.freepik.com/free-photo/kimchi-cabbage-bowl_2829-18652.jpg?t=st=1658740808~exp=1658741408~hmac=28ae78ad1049c982c8460df2c63ac2ec97a7c6e3ee16090de48069610c3c38ff&w=996');
+    /* background-image: url('https://img.freepik.com/premium-photo/rice-with-red-fish-green-beans-spinach-black-plate-diet-top-view-free-space-text_187166-26345.jpg?w=996'); */
+    /* background-image: url('https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773774.jpg?w=996&t=st=1658923816~exp=1658924416~hmac=613ffc79ff27acfc1553d94f996019f57b29fabe7e1370eb9b0d29ee3517cc15'); */
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,4 +38,12 @@
     /* margin: 100px 100px; */
     gap: 30px;
     border-radius: 30px;
+}
+
+.headers {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
