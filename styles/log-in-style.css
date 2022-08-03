@@ -1,8 +1,6 @@
 @import url(main-settings.css);
 
 .log-in-background {
-    /* background-image: url('https://img.freepik.com/free-photo/kimchi-cabbage-bowl_2829-18652.jpg?t=st=1658740808~exp=1658741408~hmac=28ae78ad1049c982c8460df2c63ac2ec97a7c6e3ee16090de48069610c3c38ff&w=996'); */
-    /* background-image: url('https://img.freepik.com/free-photo/top-view-delicious-noodles-concept_23-2148773774.jpg?w=996&t=st=1658923816~exp=1658924416~hmac=613ffc79ff27acfc1553d94f996019f57b29fabe7e1370eb9b0d29ee3517cc15'); */
     background-image: url('https://img.freepik.com/free-photo/flat-lay-noodles-meal-arrangement_23-2148803834.jpg?w=996&t=st=1659443049~exp=1659443649~hmac=acc7740cb1e9828dc6431c1c98f235188e62a4714efdba70b13a38aad7d81bd2');
     height: 100vh;
     background-repeat: no-repeat;
@@ -15,28 +13,23 @@
 
 .logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #000000;
-    /* height: 100vh; */
-    /* width: 50%; */
-    /* padding: 20px 50px; */
-    /* box-shadow: 0 0 20px #808080; */
-    /* border-radius: 50px; */
-    /* padding: 20px; */
+    border-radius: 100px;
+    opacity: 0.8;
 }
 
 .logo > a {
     /* width: 600px;
     height: 200px;
     padding: 20px; */
+    margin: 10px 20px 8px 10px;
 }
 
 .logo > a > img {
     width: 300px;
     height: 100px;
-    box-shadow: 0 0 20px #000000;
-    border-radius: 50px 10px 10px 50px;
+    /* box-shadow: 0 0 20px #000000; */
+    /* border-radius: 50px 10px 10px 50px; */
     /* color: #000000; */
     /* padding: 20px 10px; */
 }
@@ -63,22 +56,28 @@
     font-weight: bold;
 }
 
+.headers > a {
+    text-decoration: none;
+    color: #808080;
+}
+
 .not-active {
     border-bottom: 2px solid #ffa64d;
 }
 
 .input-fields {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
+    /* align-items: center; */
     gap: 30px;
 }
 
 .input-fields > input {
     /* width: 100%; */
-    padding: 15px;
+    padding: 13px;
     border-radius: 30px;
-    border: 1px solid #808080;
+    border: 1px solid #373737;
 }
 
 .input-fields > button {
