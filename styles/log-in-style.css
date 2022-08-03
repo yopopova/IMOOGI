@@ -19,33 +19,21 @@
 }
 
 .logo > a {
-    /* width: 600px;
-    height: 200px;
-    padding: 20px; */
     margin: 10px 20px 8px 10px;
 }
 
 .logo > a > img {
     width: 300px;
     height: 100px;
-    /* box-shadow: 0 0 20px #000000; */
-    /* border-radius: 50px 10px 10px 50px; */
-    /* color: #000000; */
-    /* padding: 20px 10px; */
 }
 
 .log-in-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #ffffff;
-    /* width: 50%; */
-    padding: 50px 90px;
-    margin: 0 50px;
-    /* margin: 100px 100px; */
-    gap: 30px;
     border-radius: 30px;
+    padding: 50px 90px;
+    gap: 30px;
 }
 
 .headers {
