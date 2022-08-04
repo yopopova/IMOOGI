@@ -40,6 +40,7 @@
 .headers {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 30px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -58,11 +59,17 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .input-fields > p {
     color: #41424C;
+}
+
+.input-fields > p > a {
+    text-decoration: none;
+    color: #ffa64d;
+    font-weight: bold;
 }
 
 .input-fields > input {
@@ -80,4 +87,10 @@
     font-weight: bold;
     padding: 10px 30px;
     box-shadow: 0 0 8px #808080;
+}
+
+.forgotten-password {
+    text-decoration: none;
+    color: #ffa64d;
+    font-size: 0.9rem;
 }
