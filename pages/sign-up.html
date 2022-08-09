@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация - Корейски ресторант IMOOGI</title>
-    <meta name="description" content="Влез в профила си или се регистрирай, за да се възползваш от специалните оферти на корейски ресторант IMOOGI.">
+    <meta name="description"
+        content="Влез в профила си или се регистрирай, за да се възползваш от специалните оферти на корейски ресторант IMOOGI.">
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/log-in-style.css">
     <script src="https://kit.fontawesome.com/e7629d8c19.js" crossorigin="anonymous"></script>
@@ -22,17 +23,31 @@
 
         <div class="log-in-form">
             <div class="headers">
-                <a href="log-in.html">Вход</a>
-                <p class="not-active">Регистрация</p>
+                <a href="log-in.html">Log In</a>
+                <p class="not-active">Sign Up</p>
             </div>
 
             <div class="input-fields">
-                <p>Влез в профила си:</p>
-                <input type="email" placeholder="Имейл">
-                <input type="password" placeholder="Парола">
-                <button type="submit">Вход</button>
-                <a href="#" class="forgotten-password">Забравена парола?</a>
-                <p>Все още нямате профил? <a href="#">Регистрация</a></p>
+                <p>Create an account:</p>
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+
+                <div class="checkbox-fields">
+                    <div class="checkbox-div">
+                        <input type="checkbox" id="emails">
+                        <label for="emails">I do not wish to receive news and promotions from restaurant IMOOGI by email.</label>
+                    </div>
+                    <div class="checkbox-div">
+                        <input type="checkbox" id="terms-of-use">
+                        <label for="terms-of-use">By clicking CREATE ACCOUNT, I agree that I have read and accepted the Terms of Use and Privacy Policy.</label>
+                    </div>
+                </div>
+
+                <button type="submit">Create account</button>
+                <!-- <a href="#" class="forgotten-password">Забравена парола?</a> -->
+                <p>Already have an account? <a href="#">Log In</a></p>
             </div>
         </div>
     </div>
