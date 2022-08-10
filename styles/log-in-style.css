@@ -1,11 +1,11 @@
 @import url(main-settings.css);
 
 .log-in-background {
-    background-image: url('https://img.freepik.com/free-photo/flat-lay-noodles-meal-arrangement_23-2148803834.jpg?w=996&t=st=1659443049~exp=1659443649~hmac=acc7740cb1e9828dc6431c1c98f235188e62a4714efdba70b13a38aad7d81bd2');
+    background-image: url('https://img.freepik.com/free-photo/tasty-asian-noodles-with-cheese-tofu-vegetables-bowls_1220-5312.jpg?w=996&t=st=1660127389~exp=1660127989~hmac=92c5457416556525d98086cddaf682459973c35aca7f9074fc6d1b6b47082c33');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: top; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -13,7 +13,6 @@
 
 .logo {
     display: flex;
-    background-color: #000000;
     border-radius: 100px;
     opacity: 0.8;
 }
@@ -35,6 +34,8 @@
     padding: 50px 90px;
     gap: 30px;
     box-shadow: 0 0 100px #000000;
+    max-width: 35%;
+    /* max-width: min-content; */
 }
 
 .headers {
@@ -76,6 +77,28 @@
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
+}
+
+.checkbox-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    color: #41424C;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+input[type=checkbox] {
+    accent-color: #ffa64d;
+    padding-right: 5px;
+    /* color: #ffffff; */
+}
+
+.checkbox-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .input-fields > button {
