@@ -1,6 +1,6 @@
 @import url(main-settings.css);
 
-.log-in-background {
+.main-div {
     background-image: url('https://img.freepik.com/free-photo/tasty-asian-noodles-with-cheese-tofu-vegetables-bowls_1220-5312.jpg?w=996&t=st=1660127389~exp=1660127989~hmac=92c5457416556525d98086cddaf682459973c35aca7f9074fc6d1b6b47082c33');
     height: 100vh;
     background-repeat: no-repeat;
@@ -11,22 +11,12 @@
     align-items: center;
 }
 
-.logo {
-    display: flex;
-    border-radius: 100px;
-    opacity: 0.8;
-}
-
-.logo > a {
-    margin: 10px 20px 8px 10px;
-}
-
 .logo > a > img {
     width: 300px;
     height: 100px;
 }
 
-.log-in-form {
+.form {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -38,7 +28,7 @@
     /* max-width: min-content; */
 }
 
-.headers {
+.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,7 +37,7 @@
     font-weight: bold;
 }
 
-.headers > a {
+.links > a {
     text-decoration: none;
     color: #808080;
 }
@@ -106,7 +96,7 @@ input[type=checkbox] {
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: bold;
     padding: 10px 30px;
     box-shadow: 0 0 8px #808080;
