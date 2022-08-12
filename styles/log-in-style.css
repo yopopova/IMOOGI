@@ -21,7 +21,7 @@
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 30px;
-    padding: 50px 90px;
+    padding: 40px 70px;
     gap: 30px;
     box-shadow: 0 0 100px #000000;
     max-width: 35%;
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .input-fields > p {
@@ -94,7 +94,6 @@
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    /* text-transform: uppercase; */
     font-weight: bold;
     padding: 10px 30px;
     box-shadow: 0 0 8px #808080;
@@ -109,7 +108,16 @@
 
 @media(max-width:768px) {
 
-    .log-in-background {
+    .main-div {
         flex-direction: column;
+    }
+
+    .logo > a > img {
+        width: 210px;
+        height: 70px;
+    }
+
+    .form {
+        max-width: 70%;
     }
 }
