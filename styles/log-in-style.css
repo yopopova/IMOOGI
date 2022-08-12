@@ -89,6 +89,10 @@
     padding-right: 5px;
 }
 
+.checkbox-div > label > a {
+    color: #ffa64d;
+}
+
 .input-fields > button {
     background-color: #ffa64d;
     color: #ffffff;
