@@ -1,16 +1,6 @@
 @import url(header-style.css);
 @import url(footer-style.css);
 
-html {
-    font: 16px/1.5 "Century Gothic", sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .hero-image {
     background-image: url('https://img.freepik.com/free-photo/stir-frying-beef-with-sweet-peppers-green-beans-rice_2829-20132.jpg?w=1380&t=st=1655276935~exp=1655277535~hmac=e012edab44bbc3802628b86ec2446a348d223693bdfd444c7fce23753c8d3009');
     height: 40vw;
