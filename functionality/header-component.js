@@ -1,5 +1,5 @@
-let divSiteHeader = document.getElementsByClassName('site-header');
+let mainDivElement = document.querySelector('.site-header');
 
-let headerSiteLogo = document.createElement('header');
-headerSiteLogo.setAttribute('class', 'site-logo');
-divSiteHeader.appendChild(headerSiteLogo);
+let headerElement = document.createElement('header');
+headerElement.setAttribute('class', 'site-logo');
+mainDivElement.appendChild(headerElement);
