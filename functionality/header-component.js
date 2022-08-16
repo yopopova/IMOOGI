@@ -1,0 +1,1 @@
+let divSiteHeader = document.getElementsByClassName('site-header');
