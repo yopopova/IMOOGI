@@ -12,3 +12,7 @@ let imgLogoElement = document.createElement('img');
 imgLogoElement.setAttribute('src', '../images/imoogi-logo.png');
 imgLogoElement.setAttribute('alt', 'imoogi-logo');
 linkLogoElement.appendChild(imgLogoElement);
+
+let navElement = document.createElement('nav');
+navElement.setAttribute('class', 'site-navigation');
+headerElement.appendChild(navElement);
