@@ -16,3 +16,7 @@ linkLogoElement.appendChild(imgLogoElement);
 let navElement = document.createElement('nav');
 navElement.setAttribute('class', 'site-navigation');
 headerElement.appendChild(navElement);
+
+let ulMenuElement = document.createElement('ul');
+ulMenuElement.setAttribute('class', 'menu');
+navElement.appendChild(ulMenuElement);
