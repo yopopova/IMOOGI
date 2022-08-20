@@ -27,3 +27,10 @@ firstLiAElement.setAttribute('href', 'index.html');
 firstLiAElement.textContent = 'Начало';
 firstNavLiElement.appendChild(firstLiAElement);
 ulMenuElement.appendChild(firstNavLiElement);
+
+let secondNavLiElement = document.createElement('li');
+let secondLiAElement = document.createElement('a');
+secondLiAElement.setAttribute('href', '#');
+secondLiAElement.textContent = 'Меню';
+secondNavLiElement.appendChild(secondLiAElement);
+ulMenuElement.appendChild(secondNavLiElement);
