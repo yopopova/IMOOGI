@@ -1,5 +1,6 @@
 let mainDivElement = document.querySelector('.site-header');
 
+// Site header element
 let headerElement = document.createElement('header');
 headerElement.setAttribute('class', 'site-logo');
 mainDivElement.appendChild(headerElement);
@@ -13,9 +14,10 @@ imgLogoElement.setAttribute('src', '../images/imoogi-logo.png');
 imgLogoElement.setAttribute('alt', 'imoogi-logo');
 linkLogoElement.appendChild(imgLogoElement);
 
+// Site navigation element
 let navElement = document.createElement('nav');
 navElement.setAttribute('class', 'site-navigation');
-headerElement.appendChild(navElement);
+mainDivElement.appendChild(navElement);
 
 let ulMenuElement = document.createElement('ul');
 ulMenuElement.setAttribute('class', 'menu');
@@ -24,13 +26,13 @@ navElement.appendChild(ulMenuElement);
 let firstNavLiElement = document.createElement('li');
 let firstLiAElement = document.createElement('a');
 firstLiAElement.setAttribute('href', 'index.html');
-firstLiAElement.textContent = 'Начало';
+firstLiAElement.textContent = 'Home';
 firstNavLiElement.appendChild(firstLiAElement);
 ulMenuElement.appendChild(firstNavLiElement);
 
 let secondNavLiElement = document.createElement('li');
 let secondLiAElement = document.createElement('a');
 secondLiAElement.setAttribute('href', '#');
-secondLiAElement.textContent = 'Меню';
+secondLiAElement.textContent = 'Menu';
 secondNavLiElement.appendChild(secondLiAElement);
 ulMenuElement.appendChild(secondNavLiElement);
