@@ -20,3 +20,10 @@ headerElement.appendChild(navElement);
 let ulMenuElement = document.createElement('ul');
 ulMenuElement.setAttribute('class', 'menu');
 navElement.appendChild(ulMenuElement);
+
+let firstNavLiElement = document.createElement('li');
+let firstLiAElement = document.createElement('a');
+firstLiAElement.setAttribute('href', 'index.html');
+firstLiAElement.textContent = 'Начало';
+firstNavLiElement.appendChild(firstLiAElement);
+ulMenuElement.appendChild(firstNavLiElement);
