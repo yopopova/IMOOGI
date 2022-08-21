@@ -36,3 +36,10 @@ secondLiAElement.setAttribute('href', '#');
 secondLiAElement.textContent = 'Menu';
 secondNavLiElement.appendChild(secondLiAElement);
 ulMenuElement.appendChild(secondNavLiElement);
+
+let thirdNavLiElement = document.createElement('li');
+let thirdLiAElement = document.createElement('a');
+thirdLiAElement.setAttribute('href', '#');
+thirdLiAElement.textContent = 'Reservation';
+thirdNavLiElement.appendChild(thirdLiAElement);
+ulMenuElement.appendChild(thirdNavLiElement);
