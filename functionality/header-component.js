@@ -50,3 +50,10 @@ fourthLiAElement.setAttribute('href', '#');
 fourthLiAElement.textContent = 'About';
 fourthNavLiElement.appendChild(fourthLiAElement);
 ulMenuElement.appendChild(fourthNavLiElement);
+
+let fifthNavLiElement = document.createElement('li');
+let fifthLiAElement = document.createElement('a');
+fifthLiAElement.setAttribute('href', '#');
+fifthLiAElement.textContent = 'Contacts';
+fifthNavLiElement.appendChild(fifthLiAElement);
+ulMenuElement.appendChild(fifthNavLiElement);
