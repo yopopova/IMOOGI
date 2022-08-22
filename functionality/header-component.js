@@ -57,3 +57,10 @@ fifthLiAElement.setAttribute('href', '#');
 fifthLiAElement.textContent = 'Contacts';
 fifthNavLiElement.appendChild(fifthLiAElement);
 ulMenuElement.appendChild(fifthNavLiElement);
+
+let sixthNavLiElement = document.createElement('li');
+let sixthLiAElement = document.createElement('a');
+sixthLiAElement.setAttribute('href', '#');
+sixthLiAElement.textContent = 'Log In';
+sixthNavLiElement.appendChild(sixthLiAElement);
+ulMenuElement.appendChild(sixthNavLiElement);
