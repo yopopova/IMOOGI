@@ -59,8 +59,17 @@ fifthNavLiElement.appendChild(fifthLiAElement);
 ulMenuElement.appendChild(fifthNavLiElement);
 
 let sixthNavLiElement = document.createElement('li');
+sixthNavLiElement.setAttribute('class', 'login');
 let sixthLiAElement = document.createElement('a');
 sixthLiAElement.setAttribute('href', '#');
 sixthLiAElement.textContent = 'Log In';
 sixthNavLiElement.appendChild(sixthLiAElement);
 ulMenuElement.appendChild(sixthNavLiElement);
+
+let seventhLiElement = document.createElement('li');
+let inputFieldElement = document.createElement('input');
+inputFieldElement.setAttribute('class', 'search-bar');
+inputFieldElement.setAttribute('type', 'text');
+inputFieldElement.setAttribute('placeholder', 'Търси...');
+seventhLiElement.appendChild(inputFieldElement);
+ulMenuElement.appendChild(seventhLiElement);
