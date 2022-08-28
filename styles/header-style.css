@@ -1,11 +1,13 @@
 .site-header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     background-color: #000000;
 }
 
-.site-logo header a img {
+/* Removed tag header from the row below */
+.site-logo > a > img { 
     width: 180px;
     height: 60px;
     display: flex;
@@ -16,20 +18,20 @@
     padding: 20px;
 }
 
-.menu li {
+.menu > li {
     display: inline-block;
     list-style: none;
     padding: 15px;
 }
 
-.menu li a {
+.menu > li > a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.menu li a:hover {
+.menu > li > a:hover {
     color: #ffa64d;
     transition: all 0.2s ease-in-out;
 }
@@ -47,7 +49,7 @@
 .search-bar {
     height: 25px;
     border: none;
-    border-radius: 50px;
+    border-radius: 50px 0 0 50px;
     padding: 15px;
 }
 
@@ -56,9 +58,9 @@
     width: 30px;
     height: 30px;
     border: none;
-    border-radius: 50px;
+    border-radius: 0 50px 50px 0;
     align-content: center;
-    margin-left: 5px;
+    padding-right: 3px;
     cursor: pointer;
 }
 
