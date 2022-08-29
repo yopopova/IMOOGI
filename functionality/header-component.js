@@ -3,6 +3,19 @@ let mainDivElement = document.querySelector('.site-header');
 // Hamburger menu
 let hamburgerMenuElement = document.createElement('div');
 hamburgerMenuElement.setAttribute('class', 'hamburger-menu');
+
+let firstSpanElement = document.createElement('span');
+firstSpanElement.setAttribute('class', 'bar');
+hamburgerMenuElement.appendChild(firstSpanElement);
+
+let secondSpanElement = document.createElement('span');
+secondSpanElement.setAttribute('class', 'bar');
+hamburgerMenuElement.appendChild(secondSpanElement);
+
+let thirdSpanElement = document.createElement('span');
+thirdSpanElement.setAttribute('class', 'bar');
+hamburgerMenuElement.appendChild(thirdSpanElement);
+
 mainDivElement.appendChild(hamburgerMenuElement);
 
 // Site header element
