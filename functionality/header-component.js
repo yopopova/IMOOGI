@@ -4,6 +4,11 @@ let mainDivElement = document.querySelector('.site-header');
 let hamburgerMenuElement = document.createElement('div');
 hamburgerMenuElement.setAttribute('class', 'hamburger-menu');
 
+hamburgerMenuElement.addEventListener('click', () => {
+    hamburgerMenuElement.classList.toggle('active');
+    ulMenuElement.classList.toggle('active');
+});
+
 let firstSpanElement = document.createElement('span');
 firstSpanElement.setAttribute('class', 'bar');
 hamburgerMenuElement.appendChild(firstSpanElement);
