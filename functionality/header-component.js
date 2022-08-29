@@ -1,5 +1,10 @@
 let mainDivElement = document.querySelector('.site-header');
 
+// Hamburger menu
+let hamburgerMenuElement = document.createElement('div');
+hamburgerMenuElement.setAttribute('class', 'hamburger-menu');
+mainDivElement.appendChild(hamburgerMenuElement);
+
 // Site header element
 let headerElement = document.createElement('header');
 headerElement.setAttribute('class', 'site-logo');
@@ -80,6 +85,7 @@ seventhLiElement.appendChild(inputFieldElement);
 seventhLiElement.appendChild(btnElement);
 ulMenuElement.appendChild(seventhLiElement);
 
+// Shopping cart element
 let cartDivElement = document.createElement('div');
 cartDivElement.setAttribute('class', 'shopping-cart');
 let cartIconElement = document.createElement('i');
