@@ -6,7 +6,6 @@
     background-color: #000000;
 }
 
-/* Removed tag header from the row below */
 .site-logo > a > img { 
     width: 180px;
     height: 60px;
@@ -36,13 +35,13 @@
     transition: all 0.2s ease-in-out;
 }
 
-.login a {
+.login > a {
     background-color: #ffa64d;
     border-radius: 15px;
     padding: 8px 15px;
 }
 
-.menu li[class*="login"] a:hover {
+.menu > li[class*="login"] > a:hover {
     color: #ffffff;
 }
 
@@ -64,11 +63,11 @@
     cursor: pointer;
 }
 
-.search-button i {
+.search-button > i {
     color: #ffffff;
 }
 
-.shopping-cart i {
+.shopping-cart > i {
     color: #ffffff;
 }
 
@@ -96,17 +95,13 @@
 
     .site-logo {
         margin: 13px 0;
-    }
-
-    .site-logo header a img {
-        width: 120px;
-        height: 40px;
+        justify-content: center;
     }
 
     .menu {
         position: fixed;
         left: 100%;
-        top: 66px;
+        top: 86px;
         gap: 0;
         flex-direction: column;
         background-color: #000000;
@@ -119,23 +114,19 @@
         left: 0;
     }
 
-    .menu li {
+    .menu > li {
         display: block;
     }
 
-    .login a {
+    .login > a {
         background-color: transparent;
         border-radius: 0;
         padding: 0;
     }
 
-    .menu li[class*="login"] a:hover {
+    .menu > li[class*="login"] > a:hover {
         color: #ffa64d;
         transition: all 0.2s ease-in-out;
-    }
-
-    .shopping-cart {
-        margin: -150px;
     }
 
     .hamburger-menu {
