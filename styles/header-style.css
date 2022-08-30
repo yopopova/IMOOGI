@@ -2,8 +2,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #000000;
+}
+
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
 }
 
 .site-logo > a > img { 
@@ -91,6 +99,11 @@
     .site-header {
         padding: 0 30px;
         justify-content: space-between;
+    }
+
+    .site-menu {
+        flex-direction: column;
+        gap: 0;
     }
 
     .site-logo {
