@@ -23,10 +23,15 @@ hamburgerMenuElement.appendChild(thirdSpanElement);
 
 mainDivElement.appendChild(hamburgerMenuElement);
 
+// Site menu div element
+let siteMenuDivElement = document.createElement('div');
+siteMenuDivElement.setAttribute('class', 'site-menu');
+mainDivElement.appendChild(siteMenuDivElement);
+
 // Site header element
 let headerElement = document.createElement('header');
 headerElement.setAttribute('class', 'site-logo');
-mainDivElement.appendChild(headerElement);
+siteMenuDivElement.appendChild(headerElement);
 
 let linkLogoElement = document.createElement('a');
 linkLogoElement.setAttribute('href', 'index.html');
@@ -40,7 +45,7 @@ linkLogoElement.appendChild(imgLogoElement);
 // Site navigation element
 let navElement = document.createElement('nav');
 navElement.setAttribute('class', 'site-navigation');
-mainDivElement.appendChild(navElement);
+siteMenuDivElement.appendChild(navElement);
 
 let ulMenuElement = document.createElement('ul');
 ulMenuElement.setAttribute('class', 'menu');
