@@ -9,3 +9,7 @@ footerElement.appendChild(mainFooterDivElement);
 let menuFooterElement = document.createElement('div');
 menuFooterElement.setAttribute('class', 'footer-menu');
 mainFooterDivElement.appendChild(menuFooterElement);
+
+let firstColHeadingElement = document.createElement('h3');
+firstColHeadingElement.textContent = 'Imoogi';
+menuFooterElement.appendChild(firstColHeadingElement);
