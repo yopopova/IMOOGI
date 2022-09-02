@@ -13,3 +13,13 @@ mainFooterDivElement.appendChild(menuFooterElement);
 let firstColHeadingElement = document.createElement('h3');
 firstColHeadingElement.textContent = 'Imoogi';
 menuFooterElement.appendChild(firstColHeadingElement);
+
+let ulFirstColElement = document.createElement('ul');
+menuFooterElement.appendChild(ulFirstColElement);
+
+let firstColFirstLiElement = document.createElement('li');
+let firstLiFirstLinkEl = document.createElement('a');
+firstLiFirstLinkEl.setAttribute('href', '../pages/index.html');
+firstLiFirstLinkEl.textContent = 'Начало';
+firstColFirstLiElement.appendChild(firstLiFirstLinkEl);
+ulFirstColElement.appendChild(firstColFirstLiElement);
