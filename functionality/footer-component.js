@@ -20,6 +20,13 @@ menuFooterElement.appendChild(ulFirstColElement);
 let firstColFirstLiElement = document.createElement('li');
 let firstLiFirstLinkEl = document.createElement('a');
 firstLiFirstLinkEl.setAttribute('href', '../pages/index.html');
-firstLiFirstLinkEl.textContent = 'Начало';
+firstLiFirstLinkEl.textContent = 'Home';
 firstColFirstLiElement.appendChild(firstLiFirstLinkEl);
 ulFirstColElement.appendChild(firstColFirstLiElement);
+
+let firstColSecLiElement = document.createElement('li');
+let SecLiSecLinkEl = document.createElement('a');
+SecLiSecLinkEl.setAttribute('href', '#');
+SecLiSecLinkEl.textContent = 'Menu';
+firstColSecLiElement.appendChild(SecLiSecLinkEl);
+ulFirstColElement.appendChild(firstColSecLiElement);
