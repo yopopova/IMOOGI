@@ -32,3 +32,11 @@ let menuSecondLinkElement = document.createElement('a');
 menuSecondLinkElement.setAttribute('href', '#');
 menuSecondLinkElement.textContent = 'Menu';
 menuSecondLiElement.appendChild(menuSecondLinkElement);
+
+let menuThirdLiElement = document.createElement('li');
+menuUlElement.appendChild(menuThirdLiElement);
+
+let menuThirdLinkElement = document.createElement('a');
+menuThirdLinkElement.setAttribute('href', '#');
+menuThirdLinkElement.textContent = 'Reservation';
+menuThirdLiElement.appendChild(menuThirdLinkElement);
