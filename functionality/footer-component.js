@@ -1,32 +1,34 @@
 let footerElement = document.querySelector('.site-footer');
 
-// Main div element
-let mainFooterDivElement = document.createElement('div');
-mainFooterDivElement.setAttribute('class', 'footer-main');
-footerElement.appendChild(mainFooterDivElement);
+// Main top div element
+let topMainDivElement = document.createElement('div');
+topMainDivElement.setAttribute('class', 'footer-main');
+footerElement.appendChild(topMainDivElement);
 
-// Footer menu
-let menuFooterElement = document.createElement('div');
-menuFooterElement.setAttribute('class', 'footer-menu');
-mainFooterDivElement.appendChild(menuFooterElement);
+// Site menu
+let menuElement = document.createElement('div');
+menuElement.setAttribute('class', 'footer-menu');
+topMainDivElement.appendChild(menuElement);
 
-let firstColHeadingElement = document.createElement('h3');
-firstColHeadingElement.textContent = 'Imoogi';
-menuFooterElement.appendChild(firstColHeadingElement);
+let menuHeadingElement = document.createElement('h3');
+menuHeadingElement.textContent = 'Imoogi';
+menuElement.appendChild(menuHeadingElement);
 
-let ulFirstColElement = document.createElement('ul');
-menuFooterElement.appendChild(ulFirstColElement);
+let menuUlElement = document.createElement('ul');
+menuElement.appendChild(menuUlElement);
 
-let firstColFirstLiElement = document.createElement('li');
-let firstLiFirstLinkEl = document.createElement('a');
-firstLiFirstLinkEl.setAttribute('href', '../pages/index.html');
-firstLiFirstLinkEl.textContent = 'Home';
-firstColFirstLiElement.appendChild(firstLiFirstLinkEl);
-ulFirstColElement.appendChild(firstColFirstLiElement);
+let menuFirstLiElement = document.createElement('li');
+menuUlElement.appendChild(menuFirstLiElement);
 
-let firstColSecLiElement = document.createElement('li');
-let SecLiSecLinkEl = document.createElement('a');
-SecLiSecLinkEl.setAttribute('href', '#');
-SecLiSecLinkEl.textContent = 'Menu';
-firstColSecLiElement.appendChild(SecLiSecLinkEl);
-ulFirstColElement.appendChild(firstColSecLiElement);
+let menuFirstLinkElement = document.createElement('a');
+menuFirstLinkElement.setAttribute('href', '../pages/index.html');
+menuFirstLinkElement.textContent = 'Home';
+menuFirstLiElement.appendChild(menuFirstLinkElement);
+
+let menuSecondLiElement = document.createElement('li');
+menuUlElement.appendChild(menuSecondLiElement);
+
+let menuSecondLinkElement = document.createElement('a');
+menuSecondLinkElement.setAttribute('href', '#');
+menuSecondLinkElement.textContent = 'Menu';
+menuSecondLiElement.appendChild(menuSecondLinkElement);
