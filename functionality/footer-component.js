@@ -40,3 +40,11 @@ let menuThirdLinkElement = document.createElement('a');
 menuThirdLinkElement.setAttribute('href', '#');
 menuThirdLinkElement.textContent = 'Reservation';
 menuThirdLiElement.appendChild(menuThirdLinkElement);
+
+let menuFourthLiElement = document.createElement('li');
+menuUlElement.appendChild(menuFourthLiElement);
+
+let menuFourthLinkElement = document.createElement('a');
+menuFourthLinkElement.setAttribute('href', '#');
+menuFourthLinkElement.textContent = 'About';
+menuFourthLiElement.appendChild(menuFourthLinkElement);
