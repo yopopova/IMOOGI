@@ -48,3 +48,11 @@ let menuFourthLinkElement = document.createElement('a');
 menuFourthLinkElement.setAttribute('href', '#');
 menuFourthLinkElement.textContent = 'About';
 menuFourthLiElement.appendChild(menuFourthLinkElement);
+
+let menuFifthLiElement = document.createElement('li');
+menuUlElement.appendChild(menuFifthLiElement);
+
+let menuFifthLinkElement = document.createElement('a');
+menuFifthLinkElement.setAttribute('href', '#');
+menuFifthLinkElement.textContent = 'Contacts';
+menuFifthLiElement.appendChild(menuFifthLinkElement);
