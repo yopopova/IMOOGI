@@ -61,3 +61,7 @@ menuFifthLiElement.appendChild(menuFifthLinkElement);
 let contactsElement = document.createElement('div');
 contactsElement.setAttribute('class', 'footer-contacts');
 topMainDivElement.appendChild(contactsElement);
+
+let contactsHeadingElement = document.createElement('h3');
+contactsHeadingElement.textContent = 'Contacts';
+contactsElement.appendChild(contactsHeadingElement);
