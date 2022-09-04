@@ -65,3 +65,11 @@ topMainDivElement.appendChild(contactsElement);
 let contactsHeadingElement = document.createElement('h3');
 contactsHeadingElement.textContent = 'Contacts';
 contactsElement.appendChild(contactsHeadingElement);
+
+let contactsFirstParagraph = document.createElement('p');
+contactsFirstParagraph.textContent = 'Orders and reservations: ';
+contactsElement.appendChild(contactsFirstParagraph);
+
+let contactsFirstStrongTag = document.createElement('strong');
+contactsFirstStrongTag.textContent = '0898 70 20 30';
+contactsFirstParagraph.appendChild(contactsFirstStrongTag);
