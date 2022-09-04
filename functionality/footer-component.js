@@ -81,3 +81,11 @@ contactsElement.appendChild(contactsSecondParagraph);
 let contactsSecondStrongTag = document.createElement('strong');
 contactsSecondStrongTag.textContent = 'office@imoogi.bg';
 contactsSecondParagraph.appendChild(contactsSecondStrongTag);
+
+let contactsThirdParagraph = document.createElement('p');
+contactsThirdParagraph.textContent = 'Address: ';
+contactsElement.appendChild(contactsThirdParagraph);
+
+let contactsThirdStrongTag = document.createElement('strong');
+contactsThirdStrongTag.textContent = '124 James Boucher blvd.';
+contactsThirdParagraph.appendChild(contactsThirdStrongTag);
