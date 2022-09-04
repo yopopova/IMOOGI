@@ -56,3 +56,8 @@ let menuFifthLinkElement = document.createElement('a');
 menuFifthLinkElement.setAttribute('href', '#');
 menuFifthLinkElement.textContent = 'Contacts';
 menuFifthLiElement.appendChild(menuFifthLinkElement);
+
+// Site contacts
+let contactsElement = document.createElement('div');
+contactsElement.setAttribute('class', 'footer-contacts');
+topMainDivElement.appendChild(contactsElement);
