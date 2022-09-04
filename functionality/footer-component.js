@@ -89,3 +89,11 @@ contactsElement.appendChild(contactsThirdParagraph);
 let contactsThirdStrongTag = document.createElement('strong');
 contactsThirdStrongTag.textContent = '124 James Boucher blvd.';
 contactsThirdParagraph.appendChild(contactsThirdStrongTag);
+
+let contactsFourthParagraph = document.createElement('p');
+contactsFourthParagraph.textContent = 'Work time: ';
+contactsElement.appendChild(contactsFourthParagraph);
+
+let contactsFourthStrongTag = document.createElement('strong');
+contactsFourthStrongTag.textContent = '10:00 AM - 12:00 PM';
+contactsFourthParagraph.appendChild(contactsFourthStrongTag);
