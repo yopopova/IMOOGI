@@ -73,3 +73,11 @@ contactsElement.appendChild(contactsFirstParagraph);
 let contactsFirstStrongTag = document.createElement('strong');
 contactsFirstStrongTag.textContent = '0898 70 20 30';
 contactsFirstParagraph.appendChild(contactsFirstStrongTag);
+
+let contactsSecondParagraph = document.createElement('p');
+contactsSecondParagraph.textContent = 'Email: ';
+contactsElement.appendChild(contactsSecondParagraph);
+
+let contactsSecondStrongTag = document.createElement('strong');
+contactsSecondStrongTag.textContent = 'office@imoogi.bg';
+contactsSecondParagraph.appendChild(contactsSecondStrongTag);
