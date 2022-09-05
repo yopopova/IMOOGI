@@ -97,3 +97,8 @@ contactsElement.appendChild(contactsFourthParagraph);
 let contactsFourthStrongTag = document.createElement('strong');
 contactsFourthStrongTag.textContent = '10:00 AM - 12:00 PM';
 contactsFourthParagraph.appendChild(contactsFourthStrongTag);
+
+// Div with social media links
+let socialMediaElement = document.createElement('div');
+socialMediaElement.setAttribute('class', 'footer-social');
+topMainDivElement.appendChild(socialMediaElement);
