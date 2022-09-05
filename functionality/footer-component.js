@@ -106,3 +106,7 @@ topMainDivElement.appendChild(socialMediaElement);
 let socialMediaHeadingElement = document.createElement('h3');
 socialMediaHeadingElement.textContent = 'Follow us';
 socialMediaElement.appendChild(socialMediaHeadingElement);
+
+let socialUlElement = document.createElement('ul');
+socialUlElement.setAttribute('class', 'social-icons');
+socialMediaElement.appendChild(socialUlElement);
