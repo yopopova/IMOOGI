@@ -102,3 +102,7 @@ contactsFourthParagraph.appendChild(contactsFourthStrongTag);
 let socialMediaElement = document.createElement('div');
 socialMediaElement.setAttribute('class', 'footer-social');
 topMainDivElement.appendChild(socialMediaElement);
+
+let socialMediaHeadingElement = document.createElement('h3');
+socialMediaHeadingElement.textContent = 'Follow us';
+socialMediaElement.appendChild(socialMediaHeadingElement);
