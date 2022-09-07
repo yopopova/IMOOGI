@@ -161,3 +161,8 @@ socialThirdLinkElement.appendChild(socialThirdIconElement);
 let socialThirdSpanElement = document.createElement('span');
 socialThirdSpanElement.textContent = 'Twitter';
 socialThirdIconElement.appendChild(socialThirdSpanElement);
+
+// Payment methods
+let paymentDiv = document.createElement('div');
+paymentDiv.setAttribute('class', 'payment-methods');
+topMainDivElement.appendChild(paymentDiv);
