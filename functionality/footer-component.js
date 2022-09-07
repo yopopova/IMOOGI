@@ -144,3 +144,20 @@ socialSecondLinkElement.appendChild(socialSecondIconElement);
 let socialSecondSpanElement = document.createElement('span');
 socialSecondSpanElement.textContent = 'Instagram';
 socialSecondIconElement.appendChild(socialSecondSpanElement);
+
+let socialThirdLiElement = document.createElement('li');
+socialThirdLiElement.setAttribute('class', 'social-icon');
+socialUlElement.appendChild(socialThirdLiElement);
+
+let socialThirdLinkElement = document.createElement('a');
+socialThirdLinkElement.setAttribute('href', 'https://twitter.com/?lang=bg');
+socialThirdLinkElement.setAttribute('target', '_blank');
+socialThirdLiElement.appendChild(socialThirdLinkElement);
+
+let socialThirdIconElement = document.createElement('i');
+socialThirdIconElement.setAttribute('class', 'fa-brands fa-twitter');
+socialThirdLinkElement.appendChild(socialThirdIconElement);
+
+let socialSecondSpanElement = document.createElement('span');
+socialSecondSpanElement.textContent = 'Twitter';
+socialThirdIconElement.appendChild(socialSecondSpanElement);
