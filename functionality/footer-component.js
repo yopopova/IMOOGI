@@ -170,3 +170,6 @@ topMainDivElement.appendChild(paymentDiv);
 let paymentHeadingElement = document.createElement('h3');
 paymentHeadingElement.textContent = 'Payment methods';
 paymentDiv.appendChild(paymentHeadingElement);
+
+let paymentUlElement = document.createElement('ul');
+paymentDiv.appendChild(paymentUlElement);
