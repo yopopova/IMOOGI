@@ -166,3 +166,7 @@ socialThirdIconElement.appendChild(socialThirdSpanElement);
 let paymentDiv = document.createElement('div');
 paymentDiv.setAttribute('class', 'payment-methods');
 topMainDivElement.appendChild(paymentDiv);
+
+let paymentHeadingElement = document.createElement('h3');
+paymentHeadingElement.textContent = 'Payment methods';
+paymentDiv.appendChild(paymentHeadingElement);
