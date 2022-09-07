@@ -110,3 +110,20 @@ socialMediaElement.appendChild(socialMediaHeadingElement);
 let socialUlElement = document.createElement('ul');
 socialUlElement.setAttribute('class', 'social-icons');
 socialMediaElement.appendChild(socialUlElement);
+
+let socialFirstLiElement = document.createElement('li');
+socialFirstLiElement.setAttribute('class', 'social-icon');
+socialUlElement.appendChild(socialFirstLiElement);
+
+let socialFirstLinkElement = document.createElement('a');
+socialFirstLinkElement.setAttribute('href', 'https://bg-bg.facebook.com/');
+socialFirstLinkElement.setAttribute('target', '_blank');
+socialFirstLiElement.appendChild(socialFirstLinkElement);
+
+let socialFirstIconElement = document.createElement('i');
+socialFirstIconElement.setAttribute('class', 'fa-brands fa-facebook-f');
+socialFirstLinkElement.appendChild(socialFirstIconElement);
+
+let socialFirstSpanElement = document.createElement('span');
+socialFirstSpanElement.textContent = 'Facebook';
+socialFirstIconElement.appendChild(socialFirstSpanElement);
