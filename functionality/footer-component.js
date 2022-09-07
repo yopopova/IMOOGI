@@ -158,6 +158,6 @@ let socialThirdIconElement = document.createElement('i');
 socialThirdIconElement.setAttribute('class', 'fa-brands fa-twitter');
 socialThirdLinkElement.appendChild(socialThirdIconElement);
 
-let socialSecondSpanElement = document.createElement('span');
-socialSecondSpanElement.textContent = 'Twitter';
-socialThirdIconElement.appendChild(socialSecondSpanElement);
+let socialThirdSpanElement = document.createElement('span');
+socialThirdSpanElement.textContent = 'Twitter';
+socialThirdIconElement.appendChild(socialThirdSpanElement);
