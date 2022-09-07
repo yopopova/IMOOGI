@@ -127,3 +127,20 @@ socialFirstLinkElement.appendChild(socialFirstIconElement);
 let socialFirstSpanElement = document.createElement('span');
 socialFirstSpanElement.textContent = 'Facebook';
 socialFirstIconElement.appendChild(socialFirstSpanElement);
+
+let socialSecondLiElement = document.createElement('li');
+socialSecondLiElement.setAttribute('class', 'social-icon');
+socialUlElement.appendChild(socialSecondLiElement);
+
+let socialSecondLinkElement = document.createElement('a');
+socialSecondLinkElement.setAttribute('href', 'https://www.instagram.com/');
+socialSecondLinkElement.setAttribute('target', '_blank');
+socialSecondLiElement.appendChild(socialSecondLinkElement);
+
+let socialSecondIconElement = document.createElement('i');
+socialSecondIconElement.setAttribute('class', 'fa-brands fa-instagram');
+socialSecondLinkElement.appendChild(socialSecondIconElement);
+
+let socialSecondSpanElement = document.createElement('span');
+socialSecondSpanElement.textContent = 'Instagram';
+socialSecondIconElement.appendChild(socialSecondSpanElement);
