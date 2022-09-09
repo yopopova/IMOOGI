@@ -224,3 +224,19 @@ payThirdLinkElement.appendChild(payThirdIconElement);
 let payThirdSpanElement = document.createElement('span');
 payThirdSpanElement.textContent = 'PayPal';
 payThirdIconElement.appendChild(payThirdSpanElement);
+
+let payFourthLiElement = document.createElement('li');
+payFourthLiElement.setAttribute('class', 'pay');
+paymentUlElement.appendChild(payFourthLiElement);
+
+let payFourthLinkElement = document.createElement('a');
+payFourthLinkElement.setAttribute('href', '#');
+payFourthLiElement.appendChild(payFourthLinkElement);
+
+let payFourthIconElement = document.createElement('i');
+payFourthIconElement.setAttribute('class', 'fa-solid fa-hand-holding-dollar');
+payFourthLinkElement.appendChild(payFourthIconElement);
+
+let payFourthSpanElement = document.createElement('span');
+payFourthSpanElement.textContent = 'Cash';
+payFourthIconElement.appendChild(payFourthSpanElement);
