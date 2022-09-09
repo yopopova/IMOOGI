@@ -207,3 +207,20 @@ paySecondLinkElement.appendChild(paySecondIconElement);
 let paySecondSpanElement = document.createElement('span');
 paySecondSpanElement.textContent = 'Mastercard';
 paySecondIconElement.appendChild(paySecondSpanElement);
+
+let payThirdLiElement = document.createElement('li');
+payThirdLiElement.setAttribute('class', 'pay');
+paymentUlElement.appendChild(payThirdLiElement);
+
+let payThirdLinkElement = document.createElement('a');
+payThirdLinkElement.setAttribute('href', 'https://www.paypal.com/bg/home');
+payThirdLinkElement.setAttribute('target', '_blank');
+payThirdLiElement.appendChild(payThirdLinkElement);
+
+let payThirdIconElement = document.createElement('i');
+payThirdIconElement.setAttribute('class', 'fa-brands fa-cc-paypal');
+payThirdLinkElement.appendChild(payThirdIconElement);
+
+let payThirdSpanElement = document.createElement('span');
+payThirdSpanElement.textContent = 'PayPal';
+payThirdIconElement.appendChild(payThirdSpanElement);
