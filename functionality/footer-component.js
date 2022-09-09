@@ -173,3 +173,20 @@ paymentDiv.appendChild(paymentHeadingElement);
 
 let paymentUlElement = document.createElement('ul');
 paymentDiv.appendChild(paymentUlElement);
+
+let payFirstLiElement = document.createElement('li');
+payFirstLiElement.setAttribute('class', 'pay');
+paymentUlElement.appendChild(payFirstLiElement);
+
+let payFirstLinkElement = document.createElement('a');
+payFirstLinkElement.setAttribute('href', 'https://usa.visa.com/');
+payFirstLinkElement.setAttribute('target', '_blank');
+payFirstLiElement.appendChild(payFirstLinkElement);
+
+let payFirstIconElement = document.createElement('i');
+payFirstIconElement.setAttribute('class', 'fa-brands fa-cc-visa');
+payFirstLinkElement.appendChild(payFirstIconElement);
+
+let payFirstSpanElement = document.createElement('span');
+payFirstSpanElement.textContent = 'Visa';
+payFirstIconElement.appendChild(payFirstSpanElement);
