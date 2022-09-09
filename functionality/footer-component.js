@@ -190,3 +190,20 @@ payFirstLinkElement.appendChild(payFirstIconElement);
 let payFirstSpanElement = document.createElement('span');
 payFirstSpanElement.textContent = 'Visa';
 payFirstIconElement.appendChild(payFirstSpanElement);
+
+let paySecondLiElement = document.createElement('li');
+paySecondLiElement.setAttribute('class', 'pay');
+paymentUlElement.appendChild(paySecondLiElement);
+
+let paySecondLinkElement = document.createElement('a');
+paySecondLinkElement.setAttribute('href', 'https://www.mastercard.com/global/en.html');
+paySecondLinkElement.setAttribute('target', '_blank');
+paySecondLiElement.appendChild(paySecondLinkElement);
+
+let paySecondIconElement = document.createElement('i');
+paySecondIconElement.setAttribute('class', 'fa-brands fa-cc-mastercard');
+paySecondLinkElement.appendChild(paySecondIconElement);
+
+let paySecondSpanElement = document.createElement('span');
+paySecondSpanElement.textContent = 'Mastercard';
+paySecondIconElement.appendChild(paySecondSpanElement);
