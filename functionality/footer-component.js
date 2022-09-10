@@ -271,3 +271,20 @@ let infoSecondLinkElement = document.createElement('a');
 infoSecondLinkElement.setAttribute('href', '#');
 infoSecondLinkElement.textContent = 'Sitemap';
 infoDivElement.appendChild(infoSecondLinkElement);
+
+let copyrightDivElement = document.createElement('div');
+copyrightDivElement.setAttribute('class', 'footer-copyright');
+bottomMainDivElement.appendChild(copyrightDivElement);
+
+let copyrightFirstParagraphElemenet = document.createElement('p');
+copyrightFirstParagraphElemenet.textContent = '\u00A9 2021-2022 - Korean restaurant IMOOGI';
+copyrightDivElement.appendChild(copyrightFirstParagraphElemenet);
+
+let copyrightSecondParagraphElemenet = document.createElement('p');
+copyrightSecondParagraphElemenet.textContent = 'All rights reserved. Web design: ';
+copyrightDivElement.appendChild(copyrightSecondParagraphElemenet);
+
+let copyrightLinkElement = document.createElement('a');
+copyrightLinkElement.setAttribute('href', '#');
+copyrightLinkElement.textContent = 'yopopova';
+copyrightSecondParagraphElemenet.appendChild(copyrightLinkElement);
