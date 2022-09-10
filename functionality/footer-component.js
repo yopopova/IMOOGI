@@ -257,3 +257,17 @@ let logoImgElement = document.createElement('img');
 logoImgElement.setAttribute('src', '../images/imoogi-logo.png');
 logoImgElement.setAttribute('alt', 'imoogi-logo');
 footerLogoDivElement.appendChild(logoImgElement);
+
+let infoDivElement = document.createElement('div');
+infoDivElement.setAttribute('class', 'more-info');
+bottomMainDivElement.appendChild(infoDivElement);
+
+let infoFirstLinkElement = document.createElement('a');
+infoFirstLinkElement.setAttribute('href', '#');
+infoFirstLinkElement.textContent = 'Terms and Conditions';
+infoDivElement.appendChild(infoFirstLinkElement);
+
+let infoSecondLinkElement = document.createElement('a');
+infoSecondLinkElement.setAttribute('href', '#');
+infoSecondLinkElement.textContent = 'Sitemap';
+infoDivElement.appendChild(infoSecondLinkElement);
