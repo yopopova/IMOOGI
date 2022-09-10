@@ -248,3 +248,12 @@ footerElement.appendChild(horizontalLineElement);
 let bottomMainDivElement = document.createElement('div');
 bottomMainDivElement.setAttribute('class', 'footer-extra-info');
 footerElement.appendChild(bottomMainDivElement);
+
+let footerLogoDivElement = document.createElement('div');
+footerLogoDivElement.setAttribute('class', 'footer-logo');
+bottomMainDivElement.appendChild(footerLogoDivElement);
+
+let logoImgElement = document.createElement('img');
+logoImgElement.setAttribute('src', '../images/imoogi-logo.png');
+logoImgElement.setAttribute('alt', 'imoogi-logo');
+footerLogoDivElement.appendChild(logoImgElement);
