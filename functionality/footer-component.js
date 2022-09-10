@@ -240,3 +240,11 @@ payFourthLinkElement.appendChild(payFourthIconElement);
 let payFourthSpanElement = document.createElement('span');
 payFourthSpanElement.textContent = 'Cash';
 payFourthIconElement.appendChild(payFourthSpanElement);
+
+// Horizontal line
+let horizontalLineElement = document.createElement('hr');
+footerElement.appendChild(horizontalLineElement);
+
+let bottomMainDivElement = document.createElement('div');
+bottomMainDivElement.setAttribute('class', 'footer-extra-info');
+footerElement.appendChild(bottomMainDivElement);
