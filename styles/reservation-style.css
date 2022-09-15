@@ -22,3 +22,14 @@
     gap: 30px;
     box-shadow: 0 0 100px #000000;
 }
+
+.reservation-form > h3 {
+    text-transform: uppercase;
+    color: #ffa64d;
+}
+
+.reservation-form input {
+    border: 1px solid #41424C;
+    border-radius: 30px;
+    padding: 13px;
+}
