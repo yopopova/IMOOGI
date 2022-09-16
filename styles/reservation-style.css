@@ -28,7 +28,13 @@
     color: #ffa64d;
 }
 
-.reservation-form input {
+.reservation-form > input {
+    border: 1px solid #41424C;
+    border-radius: 30px;
+    padding: 13px;
+}
+
+.contacts > input {
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
