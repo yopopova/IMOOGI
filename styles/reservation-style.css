@@ -24,9 +24,10 @@
     width: 40%;
 }
 
-.reservation-form > h3 {
-    text-transform: uppercase;
+.reservation-form > h1 {
+    /* text-transform: uppercase; */
     color: #ffa64d;
+    text-align: center;
 }
 
 .personal-name > input {
@@ -47,4 +48,14 @@
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
+    width: 32%;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.textarea > textarea {
+    border: 1px solid #41424C;
+    border-radius: 7px;
 }
