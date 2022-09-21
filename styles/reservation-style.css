@@ -21,6 +21,7 @@
     padding: 40px 70px;
     gap: 30px;
     box-shadow: 0 0 100px #000000;
+    width: 40%;
 }
 
 .reservation-form > h3 {
@@ -28,13 +29,21 @@
     color: #ffa64d;
 }
 
-.reservation-form > input {
+.personal-name > input {
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
+    width: 100%;
 }
 
 .contacts > input {
+    border: 1px solid #41424C;
+    border-radius: 30px;
+    padding: 13px;
+    width: 49%;
+}
+
+.time > input {
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
