@@ -18,25 +18,26 @@
 
     <div class="main">
         <div class="reservation-form">
-            <h3>Reservation Form</h3>
+            <h1>Reservation Form</h1>
             <div class="personal-name">
-                <input type="text" placeholder="Name">
+                <input id="name" type="text" placeholder="Name*">
             </div>
 
             <div class="contacts">
-                <input type="tel" placeholder="Phone">
-                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone*">
+                <input type="email" placeholder="Email*">
             </div>
 
             <div class="time">
-                <input type="date" placeholder="Date">
-                <input type="time" placeholder="Time">
-                <input type="number" placeholder="Count of people">
+                <p>Please select the desired date, time, and number of people. Please note that all of the following fields are required.</p>
+                <input id="day" type="date" placeholder="Date">
+                <input id="hours" type="time" placeholder="Time">
+                <input type="number" placeholder="Count of people*">
             </div>
 
             <div class="textarea">
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="5" cols="50" placeholder="Do you have any other preferences?"></textarea>
+                <label for="message">Do you have any other preferences for your order?</label>
+                <textarea id="message" name="message" rows="5" cols="60" placeholder="Do you have any other preferences for your order?"></textarea>
             </div>
         </div>
     </div>
