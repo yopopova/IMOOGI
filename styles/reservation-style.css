@@ -51,6 +51,11 @@
     width: 32%;
 }
 
+.time > p {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
+
 .textarea {
     width: 100%;
 }
