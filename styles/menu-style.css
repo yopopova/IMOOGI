@@ -1,3 +1,13 @@
 @import url(main-settings.css);
 @import url(header-style.css);
 @import url(footer-style.css);
+
+.hero-image {
+    background-image: url('https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773772.jpg?w=1380&t=st=1665485462~exp=1665486062~hmac=f94a22b01b6ff87edec4cdc1895aec0cd4a12650d9b17cb9f34a80a04265486c');
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
