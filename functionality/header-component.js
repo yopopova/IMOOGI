@@ -4,6 +4,7 @@ let mainDivElement = document.querySelector('.site-header');
 let hamburgerMenuElement = document.createElement('div');
 hamburgerMenuElement.setAttribute('class', 'hamburger-menu');
 
+// Show the menu and transform hamburger menu into 'X'
 hamburgerMenuElement.addEventListener('click', () => {
     hamburgerMenuElement.classList.toggle('active');
     ulMenuElement.classList.toggle('active');
@@ -60,28 +61,28 @@ ulMenuElement.appendChild(firstNavLiElement);
 
 let secondNavLiElement = document.createElement('li');
 let secondLiAElement = document.createElement('a');
-secondLiAElement.setAttribute('href', '#');
+secondLiAElement.setAttribute('href', 'menu.html');
 secondLiAElement.textContent = 'Menu';
 secondNavLiElement.appendChild(secondLiAElement);
 ulMenuElement.appendChild(secondNavLiElement);
 
 let thirdNavLiElement = document.createElement('li');
 let thirdLiAElement = document.createElement('a');
-thirdLiAElement.setAttribute('href', '#');
+thirdLiAElement.setAttribute('href', 'reservation.html');
 thirdLiAElement.textContent = 'Reservation';
 thirdNavLiElement.appendChild(thirdLiAElement);
 ulMenuElement.appendChild(thirdNavLiElement);
 
 let fourthNavLiElement = document.createElement('li');
 let fourthLiAElement = document.createElement('a');
-fourthLiAElement.setAttribute('href', '#');
+fourthLiAElement.setAttribute('href', 'about.html');
 fourthLiAElement.textContent = 'About';
 fourthNavLiElement.appendChild(fourthLiAElement);
 ulMenuElement.appendChild(fourthNavLiElement);
 
 let fifthNavLiElement = document.createElement('li');
 let fifthLiAElement = document.createElement('a');
-fifthLiAElement.setAttribute('href', '#');
+fifthLiAElement.setAttribute('href', 'contacts.html');
 fifthLiAElement.textContent = 'Contacts';
 fifthNavLiElement.appendChild(fifthLiAElement);
 ulMenuElement.appendChild(fifthNavLiElement);
@@ -89,7 +90,7 @@ ulMenuElement.appendChild(fifthNavLiElement);
 let sixthNavLiElement = document.createElement('li');
 sixthNavLiElement.setAttribute('class', 'login');
 let sixthLiAElement = document.createElement('a');
-sixthLiAElement.setAttribute('href', '#');
+sixthLiAElement.setAttribute('href', 'log-in.html');
 sixthLiAElement.textContent = 'Log In';
 sixthNavLiElement.appendChild(sixthLiAElement);
 ulMenuElement.appendChild(sixthNavLiElement);
