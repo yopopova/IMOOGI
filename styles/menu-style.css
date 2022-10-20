@@ -25,3 +25,12 @@
 .banner-text > p {
     color: #ffffff;
 }
+
+.row-dishes {
+    margin: 50px;
+}
+
+.row-dishes > div > img {
+    width: 400px;
+    height: 250px;
+}
