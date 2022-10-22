@@ -34,3 +34,15 @@
     width: 400px;
     height: 250px;
 }
+
+.restaurant-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.row-dishes {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
