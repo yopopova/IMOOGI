@@ -49,4 +49,9 @@
 .row-dishes > div > img {
     width: 400px;
     height: 250px;
+    margin-bottom: 15px;
+}
+
+.row-dishes > div > p {
+    text-align: center;
 }
