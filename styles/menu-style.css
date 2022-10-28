@@ -26,10 +26,6 @@
     color: #ffffff;
 }
 
-.restaurant-menu {
-    text-align: center;
-}
-
 .menu-dishes {
     width: 80%;
     margin: 0 auto;
@@ -41,8 +37,13 @@
 .row-dishes {
     background-color: #000000;
     color: #ffffff;
-    text-align: center;
     margin: 50px;
+    border-radius: 20px;
+}
+
+.row-dishes > div > h3 {
+    margin: 15px 0;
+    text-align: center;
 }
 
 .row-dishes > div > img {
