@@ -42,7 +42,7 @@
 }
 
 .row-dishes > div > h3 {
-    margin: 15px 0;
+    margin: 10px 0;
     text-align: center;
 }
 
@@ -52,6 +52,17 @@
     margin-bottom: 15px;
 }
 
+.dish-info {
+    text-align: center;
+}
+
 .row-dishes > div > p {
     text-align: center;
+}
+
+.price-and-order {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
