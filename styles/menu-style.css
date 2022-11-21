@@ -66,3 +66,37 @@
     margin-top: 30px;
     margin-bottom: 15px;
 }
+
+.weight-and-allergens {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.allergens {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.allergens > span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FFD900; */
+}
+
+.allergens > span > i {
+    color: #000000;
+}
+
+.egg {
+    background-color: #FFD900;
+}
+
+.sesame {
+    background-color: #C49F79;
+}
