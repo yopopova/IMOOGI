@@ -34,30 +34,22 @@
     padding: 40px 0;
 }
 
-.row-dishes {
+.dish {
     background-color: #000000;
     color: #ffffff;
-    margin: 50px;
     border-radius: 20px;
-}
-
-.row-dishes > div > h3 {
-    margin: 10px 0;
     text-align: center;
+    margin: 50px;
 }
 
-.row-dishes > div > img {
+.dish > h3 {
+    margin: 10px 0;
+}
+
+.dish > img {
     width: 400px;
     height: 250px;
     margin-bottom: 15px;
-}
-
-.dish-info {
-    text-align: center;
-}
-
-.row-dishes > div > p {
-    text-align: center;
 }
 
 .price-and-order {
@@ -96,6 +88,30 @@
 .egg {
     background-color: #FFD900;
 }
+
+/* .egg:hover {
+    content: attr(title);
+    background-color: #ffffff;
+    color: #000000;
+} */
+
+/* .egg:hover:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    width: max-content;
+    opacity: 0;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+} */
 
 .sesame {
     background-color: #C49F79;
