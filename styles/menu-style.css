@@ -78,7 +78,6 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    /* background-color: #FFD900; */
 }
 
 .allergens > span > i {
@@ -89,30 +88,18 @@
     background-color: #FFD900;
 }
 
-/* .egg:hover {
-    content: attr(title);
-    background-color: #ffffff;
-    color: #000000;
-} */
-
-/* .egg:hover:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    width: max-content;
-    opacity: 0;
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 5px;
-    transition: opacity 1s ease-in-out;
-
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 110%;
-} */
+.seafood {
+    background-color: #77B5FE;
+}
 
 .sesame {
     background-color: #C49F79;
+}
+
+.soy {
+    background-color: #2CAE1E;
+}
+
+.hot-pepper {
+    background-color: #E10600;
 }
