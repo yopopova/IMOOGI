@@ -52,13 +52,6 @@
     margin-bottom: 15px;
 }
 
-.price-and-order {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
 .weight-and-allergens {
     display: flex;
     justify-content: space-evenly;
@@ -102,4 +95,24 @@
 
 .hot-pepper {
     background-color: #E10600;
+}
+
+.price-and-order {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.price-and-order > p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.price-and-order > button {
+    background-color: #ffa64d;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding: 5px 10px;
 }
