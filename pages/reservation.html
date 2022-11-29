@@ -36,11 +36,19 @@
             </div>
 
             <div class="time">
-                <p>Please select the desired date, time, and number of people. Please note that all of the following
-                    fields are required.</p>
-                <input id="day" type="date" placeholder="Date">
-                <input id="hours" type="time" placeholder="Time">
-                <input type="number" placeholder="Count of people*">
+                <!-- <p>Please select the desired date, time, and number of people. Please note that all of the following fields are required.</p> -->
+                <div class="date">
+                    <label for="day">Date*</label>
+                    <input id="day" type="date">
+                </div>
+                <div class="hours">
+                    <label for="hours">Time*</label>
+                    <input id="hours" type="time">
+                </div>
+                <div class="people">
+                    <label for="people">People*</label>
+                    <input id="people" type="number" placeholder="Count of people">
+                </div>
             </div>
 
             <div class="textarea">
