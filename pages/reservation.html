@@ -19,6 +19,7 @@
     <div class="main">
         <div class="reservation-form">
             <h1>Reservation Form</h1>
+
             <div class="personal-name">
                 <label for="name">Name*</label>
                 <input id="name" type="text" placeholder="Enter your name">
@@ -36,10 +37,9 @@
             </div>
 
             <div class="date-and-time">
-                <!-- <p>Please select the desired date, time, and number of people. Please note that all of the following fields are required.</p> -->
                 <div class="date">
-                    <label for="day">Date*</label>
-                    <input id="day" type="date">
+                    <label for="date">Date*</label>
+                    <input id="date" type="date">
                 </div>
                 <div class="hours">
                     <label for="hours">Time*</label>
@@ -53,7 +53,13 @@
 
             <div class="textarea">
                 <label for="message">Your message</label>
-                <textarea id="message" name="message" rows="10" cols="60" placeholder="Do you have any other preferences for your reservation?"></textarea>
+                <textarea id="message" name="message" rows="10" cols="60"
+                    placeholder="Do you have any other preferences for your reservation?"></textarea>
+            </div>
+
+            <div class="extra-info-and-send">
+                <p>Please note that fields marked with * symbol are required to complete your booking successfully.</p>
+                <input type="submit" value="Make reservation">
             </div>
         </div>
     </div>
