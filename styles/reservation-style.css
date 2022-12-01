@@ -3,7 +3,8 @@
 @import url(footer-style.css);
 
 .main {
-    background-image: url('https://img.freepik.com/free-photo/delicious-seafood-noodles-copy-space_23-2148249229.jpg?w=996&t=st=1663077218~exp=1663077818~hmac=6ea1b750c63ad8ac7d33fd16a36cfc596a03239d6b11eec72f150b5c65431b54');
+    /* background-image: url('https://img.freepik.com/free-photo/delicious-seafood-noodles-copy-space_23-2148249229.jpg?w=996&t=st=1663077218~exp=1663077818~hmac=6ea1b750c63ad8ac7d33fd16a36cfc596a03239d6b11eec72f150b5c65431b54'); */
+    background-image: url('https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773772.jpg?w=1380&t=st=1665485462~exp=1665486062~hmac=f94a22b01b6ff87edec4cdc1895aec0cd4a12650d9b17cb9f34a80a04265486c');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +18,34 @@ label {
     font-weight: bold;
 }
 
+.extra-info-and-send {
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+}
+
+.extra-info-and-send > p {
+    /* font-size: 0.7em; */
+    text-align: left;
+    font-style: italic;
+    color: #555555;
+}
+
+.extra-info-and-send > input {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #ffa64d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    /* margin: auto; */
+    margin: 50px 0 30px;
+    /* text-align: center; */
+}
+
 .reservation-form {
     display: flex;
     flex-direction: column;
@@ -27,6 +56,10 @@ label {
     box-shadow: 0 0 100px #000000;
     width: 40%;
 }
+
+/* .reservation-form {
+    text-align: center;
+} */
 
 .reservation-form > h1 {
     /* text-transform: uppercase; */
