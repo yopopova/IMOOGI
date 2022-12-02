@@ -3,26 +3,27 @@
 @import url(footer-style.css);
 
 .hero-image {
-    background-image: url('https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773772.jpg?w=1380&t=st=1665485462~exp=1665486062~hmac=f94a22b01b6ff87edec4cdc1895aec0cd4a12650d9b17cb9f34a80a04265486c');
-    height: 30vw;
-    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/free-photo/delicious-seafood-noodles-copy-space_23-2148249229.jpg?w=996&t=st=1663077218~exp=1663077818~hmac=6ea1b750c63ad8ac7d33fd16a36cfc596a03239d6b11eec72f150b5c65431b54');
+    height: 40vw;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .banner-text {
-    text-align: center;
+    margin-left: 70px;
 }
 
 .banner-text > h1 {
+    font-size: 2em;
     color: #ffffff;
     text-transform: uppercase;
 }
 
 .banner-text > p {
+    font-size: 1.2em;
     color: #ffffff;
 }
 
@@ -100,8 +101,9 @@
 .price-and-order {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin: 30px 0 20px 0;
+    /* margin-top: 30px; */
+    /* margin-bottom: 15px; */
 }
 
 .price-and-order > p {
