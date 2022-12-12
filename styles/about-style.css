@@ -1,0 +1,28 @@
+@import url(main-settings.css);
+@import url(header-style.css);
+@import url(footer-style.css);
+
+.hero-image {
+    background-image: url('https://img.freepik.com/premium-photo/variety-fresh-tasty-vegetables-dark_1220-4448.jpg?w=1380');
+    height: 60vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title > h1 {
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+#content {
+    display: flex;
+}
+
+#first-info > p {
+    color: #FFFFFF;
+}
