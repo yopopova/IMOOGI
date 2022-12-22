@@ -5,18 +5,22 @@
     justify-content: space-around;
 }
 
-.footer-menu h3 {
+.footer-menu > h3 {
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.footer-menu ul li a {
+.footer-menu > ul > li {
+    list-style-type: none;
+}
+
+.footer-menu > ul > li > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.footer-menu ul li a:hover {
+.footer-menu > ul > li > a:hover {
     color: #ffa64d;
 }
 
@@ -24,71 +28,79 @@
     color: #ffffff;
 }
 
-.footer-contacts h3 {
+.footer-contacts > h3 {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.footer-social h3 {
+.footer-social > h3 {
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.footer-social ul li:nth-child(1) a i:hover {
+.footer-social > ul > li {
+    list-style-type: none;
+}
+
+.footer-social > ul > li:nth-child(1) > a > i:hover {
     color: #4867AA;
 }
 
-.footer-social ul li:nth-child(2) a i:hover {
+.footer-social > ul > li:nth-child(2) > a > i:hover {
     color: #E24569;
 }
 
-.footer-social ul li:nth-child(3) a i:hover {
+.footer-social > ul > li:nth-child(3) > a > i:hover {
     color: #1DA1F2;
 }
 
-.social-icon a {
+.social-icon > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.social-icon a i {
+.social-icon > a > i {
     padding-right: 30px;
 }
 
-.social-icon a i span {
+.social-icon > a > i > span {
     font-family: "Century Gothic", sans-serif;
     padding-left: 15px;
 }
 
-.payment-methods h3 {
+.payment-methods > h3 {
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.payment-methods ul li:nth-child(1) a i:hover {
+.payment-methods > ul > li {
+    list-style-type: none;
+}
+
+.payment-methods > ul > li:nth-child(1) > a > i:hover {
     color: #1434CB;
 }
 
-.payment-methods ul li:nth-child(2) a i:hover {
+.payment-methods > ul > li:nth-child(2) > a > i:hover {
     color: #FF5F00;
 }
 
-.payment-methods ul li:nth-child(3) a i:hover {
+.payment-methods > ul > li:nth-child(3) > a > i:hover {
     color: #2790C3;
 }
 
-.payment-methods ul li:nth-child(4) a i:hover {
+.payment-methods > ul > li:nth-child(4) > a > i:hover {
     color: #6AB74C;
 }
 
-.pay a {
+.pay > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.pay a i span {
+.pay > a > i > span {
     font-family: "Century Gothic", sans-serif;
     padding-left: 15px;
     font-weight: normal;
@@ -102,42 +114,42 @@
     background-color: #000000;
 }
 
-.footer-logo img {
+.footer-logo > img {
     width: 180px;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-.more-info a {
+.more-info > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.more-info a:hover {
+.more-info > a:hover {
     color: #ffa64d;
 }
 
-.more-info a:nth-child(1) {
+.more-info > a:nth-child(1) {
     padding-right: 10px;
     border-right: 2px solid #ffffff;
 }
 
-.more-info a:nth-child(2) {
+.more-info > a:nth-child(2) {
     padding-left: 7px;
 }
 
-.footer-copyright p {
+.footer-copyright > p {
     color: #ffffff;
 }
 
-.footer-copyright p:nth-child(2) a {
+.footer-copyright > p:nth-child(2) > a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.footer-copyright p:nth-child(2) a:hover {
+.footer-copyright > p:nth-child(2) > a:hover {
     color: #ffa64d;
 }
 
