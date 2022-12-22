@@ -2,8 +2,7 @@
 @import url(header-style.css);
 @import url(footer-style.css);
 
-.main {
-    /* background-image: url('https://img.freepik.com/free-photo/delicious-seafood-noodles-copy-space_23-2148249229.jpg?w=996&t=st=1663077218~exp=1663077818~hmac=6ea1b750c63ad8ac7d33fd16a36cfc596a03239d6b11eec72f150b5c65431b54'); */
+#main {
     background-image: url('https://img.freepik.com/free-photo/delicious-asian-noodles-concept_23-2148773772.jpg?w=1380&t=st=1665485462~exp=1665486062~hmac=f94a22b01b6ff87edec4cdc1895aec0cd4a12650d9b17cb9f34a80a04265486c');
     height: 100vh;
     background-repeat: no-repeat;
@@ -14,39 +13,7 @@
     align-items: center;
 }
 
-label {
-    font-weight: bold;
-}
-
-.extra-info-and-send {
-    /* display: flex; */
-    /* flex-direction: column; */
-    text-align: center;
-}
-
-.extra-info-and-send > p {
-    /* font-size: 0.7em; */
-    text-align: left;
-    font-style: italic;
-    color: #555555;
-}
-
-.extra-info-and-send > input {
-    /* display: flex; */
-    /* justify-content: center; */
-    background-color: #ffa64d;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bolder;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    /* margin: auto; */
-    margin: 50px 0 30px;
-    /* text-align: center; */
-}
-
-.reservation-form {
+#reservation-form {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -57,81 +24,102 @@ label {
     width: 40%;
 }
 
-/* .reservation-form {
-    text-align: center;
-} */
-
-.reservation-form > h1 {
-    /* text-transform: uppercase; */
+#reservation-form > h1 {
     color: #ffa64d;
     text-align: center;
 }
 
-.personal-name > input {
+label {
+    font-weight: bold;
+}
+
+input {
     border: 1px solid #41424C;
     border-radius: 30px;
     padding: 13px;
+}
+
+#personal-name > input {
     width: 100%;
 }
 
-.contacts {
+#contacts {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.telephone-number, .email-address {
+#telephone-number,
+#email-address {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.telephone-number > input, .email-address > input {
-    border: 1px solid #41424C;
-    border-radius: 30px;
-    padding: 13px;
-}
-
-.date-and-time {
+#date-and-time {
     display: flex;
     gap: 20px;
 }
 
-/* .date-and-time input {
-    width: 30%;
-} */
-
-.date, .hours, .people {
+.info {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.date-and-time input {
-    border: 1px solid #41424C;
-    border-radius: 30px;
-    padding: 13px;
-    /* width: 32%; */
-}
-
-/* .date-and-time > p {
-    font-size: 0.9em;
-    padding-bottom: 10px;
-} */
-
-.textarea {
+#text {
     display: flex;
     flex-direction: column;
 }
 
-.textarea > label {
-    /* text-transform: uppercase; */
-    font-weight: bold;
-    margin-bottom: 3px;
-}
-
-.textarea > textarea {
+#text > textarea {
     border: 1px solid #41424C;
     border-radius: 7px;
+    margin-top: 5px;
     padding: 7px;
+}
+
+#extra-info {
+    text-align: center;
+}
+
+#extra-info > p {
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+    color: #555555;
+}
+
+#extra-info > input {
+    background-color: #ffa64d;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+} 
+
+@media(max-width:768px) {
+
+    #reservation-form {
+        width: 80%;
+        padding: 20px 40px;
+        gap: 10px;
+        box-shadow: none;
+    }
+
+    #reservation-form > h1 {
+        font-size: 1.4em;
+        padding-bottom: 4px;
+    }
+
+    #contacts,
+    #date-and-time {
+        flex-direction: column;
+    }
+
+    #extra-info > input {
+        margin-top: 8px;
+    }
 }
