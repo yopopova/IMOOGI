@@ -2,32 +2,32 @@
 @import url(header-style.css);
 @import url(footer-style.css);
 
-.hero-image {
+#hero-image {
     background-image: url('https://img.freepik.com/free-photo/stir-frying-beef-with-sweet-peppers-green-beans-rice_2829-20132.jpg?w=1380&t=st=1655276935~exp=1655277535~hmac=e012edab44bbc3802628b86ec2446a348d223693bdfd444c7fce23753c8d3009');
     height: 40vw;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
 }
 
-.banner-text {
+#banner-text {
     margin-left: 3rem;
     width: 40%;
     color: #ffffff;
 }
 
-.banner-text h1 {
+#banner-text h1 {
     font-size: 2vw;
 }
 
-.banner-text p {
+#banner-text p {
     margin: 15px 0;
     font-size: 1.1vw;
 }
 
-.menu-btn {
+#menu-btn {
     width: 25%;
     background-color: #ffa64d;
     border: none;
@@ -37,37 +37,37 @@
     margin-top: 15px;
 }
 
-.menu-btn a {
+#menu-btn a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #ffffff;
 }
 
-.main-div {
+#main-div {
     margin: 60px;
     display: flex;
     justify-content: space-around;
 }
 
-.main-div div {
+#main-div > div {
     width: 25%;
     text-align: center;
 }
 
-.main-div div h1 {
+#main-div > div > h1 {
     font-size: 22px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.main-div div img {
+#main-div > div > img {
     width: 180px;
     height: 180px;
     margin-bottom: 20px;
 }
 
-.site-extra-info {
+#site-extra-info {
     background-image: url('https://img.freepik.com/free-photo/chinese-style-grilled-pork-called-char-siu-pork_1205-10519.jpg?t=st=1657702950~exp=1657703550~hmac=603b524bcd244e09e2e6c2d6443f0bd71b0bd2dc35ef4980f8c76526d1c0fd4c&w=996');
     height: 35vh;
     background-repeat: no-repeat;
@@ -78,44 +78,43 @@
     align-items: center;
 }
 
-.extra-info {
+#extra-info {
     color: #ffffff;
     text-align: center;
 }
 
-.extra-info p {
+#extra-info > p {
     margin: 10px 0 30px;
 }
 
-.extra-info button {
+#extra-buttons > button {
     margin: 0 20px;
-    width: 15%;
     background-color: #ffa64d;
     border: none;
     border-radius: 15px;
     padding: 10px 15px;
 }
 
-.extra-info button a {
+#extra-buttons > button > a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #ffffff;
 }
 
-.site-customer-comments {
+#site-customer-comments {
     margin: 70px;
     display: flex;
     justify-content: space-around;
 }
 
-.site-customer-comments div {
+#site-customer-comments > div {
     width: 25%;
     display: block;
     text-align: center;
 }
 
-.site-customer-comments div img {
+#site-customer-comments > div > img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -131,73 +130,73 @@
 
 @media(max-width:768px) {
 
-    .hero-image {
+    #hero-image {
         height: auto;
     }
 
-    .banner-text {
+    #banner-text {
         margin: 30px 15px;
     }
 
-    .banner-text h1 {
+    #banner-text > h1 {
         font-size: 2.8vw;
     }
 
-    .banner-text p {
+    #banner-text > p {
         font-size: 2vw;
     }
 
-    .menu-btn {
+    #menu-btn {
         font-size: 2vw;
         width: auto;
         padding: 7px 12px;
     }
 
-    .main-div {
+    #main-div {
         flex-direction: column;
         align-items: center;
         gap: 70px;
     }
 
-    .main-div div {
+    #main-div > div {
         width: 100%;
     }
 
-    .main-div div img {
+    #main-div > div > img {
         width: 100px;
         height: 100px;
     }
 
-    .site-extra-info {
+    #site-extra-info {
         height: auto;
     }
 
-    .extra-info {
+    #extra-info {
         padding: 20px;
     }
 
-    .extra-info h1 {
+    #extra-info > h1 {
         font-size: 19px;
     }
 
-    .extra-buttons button {
+    #extra-buttons > button {
         font-size: 2vw;
         width: auto;
         padding: 7px 12px;
     }
 
-    .site-customer-comments {
+    #site-customer-comments {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 70px;
     }
 
-    .site-customer-comments div {
+    #site-customer-comments > div {
         width: 100%;
     }
 
-    .site-customer-comments div img {
+    #site-customer-comments > div > img {
         width: 100px;
         height: 100px;
     }
