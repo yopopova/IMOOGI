@@ -2,28 +2,28 @@
 @import url(header-style.css);
 @import url(footer-style.css);
 
-.site-map iframe {
+#site-map > iframe {
     width: 100%;
     height: 85vh;
 }
 
-.site-contacts {
+#site-contacts {
     margin: 100px 60px;
     border-radius: 50px;
     box-shadow: 0 0 20px #808080;
 }
 
-.contacts-info {
+#contacts-info {
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
 }
 
-.contacts-info > div {
+#contacts-info > div {
     text-align: center;
 }
 
-.contacts-info > div > i {
+#contacts-info > div > i {
     background-color: #ffa64d;
     color: #ffffff;
     border-radius: 50px;
@@ -31,18 +31,18 @@
     margin-bottom: 5px;
 }
 
-.contacts-info > div > h3 {
+#contacts-info > div > h3 {
     color: #ffa64d;
     padding-bottom: 15px;
 }
 
-.contacts-info > div > p {
+#contacts-info > div > p {
     color: #484D51;
 }
 
 @media(max-width:768px) {
 
-    .contacts-info {
+    #contacts-info {
         flex-direction: column;
         gap: 50px;
     }
