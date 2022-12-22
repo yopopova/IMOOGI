@@ -2,7 +2,7 @@
 @import url(header-style.css);
 @import url(footer-style.css);
 
-.hero-image {
+#hero-image {
     background-image: url('https://img.freepik.com/free-photo/delicious-seafood-noodles-copy-space_23-2148249229.jpg?w=996&t=st=1663077218~exp=1663077818~hmac=6ea1b750c63ad8ac7d33fd16a36cfc596a03239d6b11eec72f150b5c65431b54');
     height: 40vw;
     background-size: cover;
@@ -12,22 +12,22 @@
     align-items: center;
 }
 
-.banner-text {
+#banner-text {
     margin-left: 70px;
 }
 
-.banner-text > h1 {
+#banner-text > h1 {
     font-size: 2em;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.banner-text > p {
+#banner-text > p {
     font-size: 1.2em;
     color: #ffffff;
 }
 
-.menu-dishes {
+#restaurant-menu {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -41,6 +41,7 @@
     border-radius: 20px;
     text-align: center;
     margin: 50px;
+    box-shadow: 0 0 80px #000000;
 }
 
 .dish > h3 {
@@ -102,8 +103,6 @@
     display: flex;
     justify-content: space-around;
     margin: 30px 0 20px 0;
-    /* margin-top: 30px; */
-    /* margin-bottom: 15px; */
 }
 
 .price-and-order > p {
@@ -117,4 +116,33 @@
     font-weight: bolder;
     border-radius: 15px;
     padding: 5px 10px;
+}
+
+@media(max-width:768px) {
+
+    #banner-text {
+        margin-left: 7px;
+        width: 50%;
+    }
+
+    #banner-text > h1 {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    
+    #banner-text > p {
+        font-size: 0.8em;
+    }
+
+    #restaurant-menu {
+        display: block;
+    }
+
+    .dish {
+        padding: 5px 0;
+    }
+
+    .dish > img {
+        width: 100%;
+    }
 }
