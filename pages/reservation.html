@@ -16,49 +16,47 @@
 <body>
     <div class="site-header"></div>
 
-    <div class="main">
-        <div class="reservation-form">
+    <div id="main">
+        <div id="reservation-form">
             <h1>Reservation Form</h1>
 
-            <div class="personal-name">
+            <div id="personal-name">
                 <label for="name">Name*</label>
                 <input id="name" type="text" placeholder="Enter your name">
             </div>
 
-            <div class="contacts">
-                <div class="telephone-number">
+            <div id="contacts">
+                <div id="telephone-number">
                     <label for="phone">Phone*</label>
                     <input id="phone" type="tel" placeholder="Enter your phone number">
                 </div>
-                <div class="email-address">
+                <div id="email-address">
                     <label for="email">Email*</label>
                     <input id="email" type="email" placeholder="Enter your email eddress">
                 </div>
             </div>
 
-            <div class="date-and-time">
-                <div class="date">
+            <div id="date-and-time">
+                <div class="info">
                     <label for="date">Date*</label>
                     <input id="date" type="date">
                 </div>
-                <div class="hours">
+                <div class="info">
                     <label for="hours">Time*</label>
                     <input id="hours" type="time">
                 </div>
-                <div class="people">
+                <div class="info">
                     <label for="people">People*</label>
                     <input id="people" type="number" placeholder="Count of people">
                 </div>
             </div>
 
-            <div class="textarea">
+            <div id="text">
                 <label for="message">Your message</label>
-                <textarea id="message" name="message" rows="10" cols="60"
-                    placeholder="Do you have any other preferences for your reservation?"></textarea>
+                <textarea id="message" name="message" rows="10" cols="60" placeholder="Do you have any other preferences for your reservation?"></textarea>
             </div>
 
-            <div class="extra-info-and-send">
-                <p>Please note that fields marked with * symbol are required to complete your booking successfully.</p>
+            <div id="extra-info">
                 <input type="submit" value="Make reservation">
             </div>
         </div>
@@ -66,8 +64,8 @@
 
     <footer class="site-footer"></footer>
 
-    <script src="../functionality/header-component.js"></script>
-    <script src="../functionality/footer-component.js"></script>
+    <script src="../scripts/header-component.js"></script>
+    <script src="../scripts/footer-component.js"></script>
 </body>
 
 </html>
