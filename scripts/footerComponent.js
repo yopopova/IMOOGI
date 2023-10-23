@@ -29,7 +29,7 @@ let menuSecondLiElement = document.createElement('li');
 menuUlElement.appendChild(menuSecondLiElement);
 
 let menuSecondLinkElement = document.createElement('a');
-menuSecondLinkElement.setAttribute('href', '#');
+menuSecondLinkElement.setAttribute('href', '../pages/menu.html');
 menuSecondLinkElement.textContent = 'Menu';
 menuSecondLiElement.appendChild(menuSecondLinkElement);
 
@@ -37,7 +37,7 @@ let menuThirdLiElement = document.createElement('li');
 menuUlElement.appendChild(menuThirdLiElement);
 
 let menuThirdLinkElement = document.createElement('a');
-menuThirdLinkElement.setAttribute('href', '#');
+menuThirdLinkElement.setAttribute('href', '../pages/reservation.html');
 menuThirdLinkElement.textContent = 'Reservation';
 menuThirdLiElement.appendChild(menuThirdLinkElement);
 
@@ -45,15 +45,15 @@ let menuFourthLiElement = document.createElement('li');
 menuUlElement.appendChild(menuFourthLiElement);
 
 let menuFourthLinkElement = document.createElement('a');
-menuFourthLinkElement.setAttribute('href', '#');
-menuFourthLinkElement.textContent = 'About';
+menuFourthLinkElement.setAttribute('href', '../pages/about.html');
+menuFourthLinkElement.textContent = 'About Us';
 menuFourthLiElement.appendChild(menuFourthLinkElement);
 
 let menuFifthLiElement = document.createElement('li');
 menuUlElement.appendChild(menuFifthLiElement);
 
 let menuFifthLinkElement = document.createElement('a');
-menuFifthLinkElement.setAttribute('href', '#');
+menuFifthLinkElement.setAttribute('href', '../pages/contacts.html');
 menuFifthLinkElement.textContent = 'Contacts';
 menuFifthLiElement.appendChild(menuFifthLinkElement);
 
@@ -67,11 +67,11 @@ contactsHeadingElement.textContent = 'Contacts';
 contactsElement.appendChild(contactsHeadingElement);
 
 let contactsFirstParagraph = document.createElement('p');
-contactsFirstParagraph.textContent = 'Orders and reservations: ';
+contactsFirstParagraph.textContent = 'Phone: ';
 contactsElement.appendChild(contactsFirstParagraph);
 
 let contactsFirstStrongTag = document.createElement('strong');
-contactsFirstStrongTag.textContent = '0898 70 20 30';
+contactsFirstStrongTag.textContent = '+359 898 70 20 30';
 contactsFirstParagraph.appendChild(contactsFirstStrongTag);
 
 let contactsSecondParagraph = document.createElement('p');
@@ -277,14 +277,15 @@ copyrightDivElement.setAttribute('class', 'footer-copyright');
 bottomMainDivElement.appendChild(copyrightDivElement);
 
 let copyrightFirstParagraphElemenet = document.createElement('p');
-copyrightFirstParagraphElemenet.textContent = '\u00A9 2021-2022 - Korean restaurant IMOOGI';
+copyrightFirstParagraphElemenet.textContent = '\u00A9 2021-2023 - IMOOGI Korean Restaurant';
 copyrightDivElement.appendChild(copyrightFirstParagraphElemenet);
 
 let copyrightSecondParagraphElemenet = document.createElement('p');
-copyrightSecondParagraphElemenet.textContent = 'All rights reserved. Web design: ';
+copyrightSecondParagraphElemenet.textContent = 'All rights reserved. Web design by ';
 copyrightDivElement.appendChild(copyrightSecondParagraphElemenet);
 
 let copyrightLinkElement = document.createElement('a');
-copyrightLinkElement.setAttribute('href', '#');
-copyrightLinkElement.textContent = 'yopopova';
+copyrightLinkElement.setAttribute('href', 'https://github.com/yopopova');
+copyrightLinkElement.setAttribute('target', '_blank');
+copyrightLinkElement.textContent = 'Yoanna Popova';
 copyrightSecondParagraphElemenet.appendChild(copyrightLinkElement);

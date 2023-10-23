@@ -76,7 +76,7 @@ ulMenuElement.appendChild(thirdNavLiElement);
 let fourthNavLiElement = document.createElement('li');
 let fourthLiAElement = document.createElement('a');
 fourthLiAElement.setAttribute('href', 'about.html');
-fourthLiAElement.textContent = 'About';
+fourthLiAElement.textContent = 'About Us';
 fourthNavLiElement.appendChild(fourthLiAElement);
 ulMenuElement.appendChild(fourthNavLiElement);
 
@@ -90,7 +90,7 @@ ulMenuElement.appendChild(fifthNavLiElement);
 let sixthNavLiElement = document.createElement('li');
 sixthNavLiElement.setAttribute('class', 'login');
 let sixthLiAElement = document.createElement('a');
-sixthLiAElement.setAttribute('href', 'log-in.html');
+sixthLiAElement.setAttribute('href', 'login.html');
 sixthLiAElement.textContent = 'Log In';
 sixthNavLiElement.appendChild(sixthLiAElement);
 ulMenuElement.appendChild(sixthNavLiElement);
