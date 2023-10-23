@@ -1,6 +1,6 @@
-@import url(main-settings.css);
-@import url(header-style.css);
-@import url(footer-style.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
 
 #hero-image {
     background-image: url('https://img.freepik.com/free-photo/stir-frying-beef-with-sweet-peppers-green-beans-rice_2829-20132.jpg?w=1380&t=st=1655276935~exp=1655277535~hmac=e012edab44bbc3802628b86ec2446a348d223693bdfd444c7fce23753c8d3009');

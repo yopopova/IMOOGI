@@ -1,6 +1,6 @@
-@import url(main-settings.css);
-@import url(header-style.css);
-@import url(footer-style.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
 
 #hero-image {
     background-image: url('https://img.freepik.com/premium-photo/variety-fresh-tasty-vegetables-dark_1220-4448.jpg?w=1380');

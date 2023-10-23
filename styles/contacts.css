@@ -1,6 +1,6 @@
-@import url(main-settings.css);
-@import url(header-style.css);
-@import url(footer-style.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
 
 #site-map > iframe {
     width: 100%;
