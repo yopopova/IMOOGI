@@ -1,2 +1,5 @@
-# Ignore app images
+# Ignore images folder
 images
+
+# Ignore patterns folder
+patterns
