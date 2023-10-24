@@ -3,15 +3,15 @@
 @import url(footer.css);
 
 #hero-image {
-    background-image: url('https://img.freepik.com/premium-photo/variety-fresh-tasty-vegetables-dark_1220-4448.jpg?w=1380');
-    height: 50vw;
+    background-image: url('../images/jajangmyeon-noodles.jpg');
+    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
 }
 
 #title > h1 {
@@ -21,12 +21,25 @@
 
 #content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content > div {
+    display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
     width: 40%;
-    font-weight: bold;
-    text-align: justify;
+    gap: 20px;
     text-indent: 3%;
-    color: #FFFFFF;
-    margin: 3% 0 6% 0;
+    color: #808080;
+    margin: 5%;
+}
+
+#content > div > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffa64d;
+    padding: 7px;
 }
