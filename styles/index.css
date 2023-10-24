@@ -68,11 +68,11 @@
 }
 
 #site-extra-info {
-    background-image: url('https://img.freepik.com/free-photo/chinese-style-grilled-pork-called-char-siu-pork_1205-10519.jpg?t=st=1657702950~exp=1657703550~hmac=603b524bcd244e09e2e6c2d6443f0bd71b0bd2dc35ef4980f8c76526d1c0fd4c&w=996');
+    background-image: url('../images/noodles-bowl.jpg');
     height: 35vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;

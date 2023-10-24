@@ -1,7 +1,7 @@
 @import url(main.css);
 
 .main-div {
-    background-image: url('https://img.freepik.com/free-photo/tasty-asian-noodles-with-cheese-tofu-vegetables-bowls_1220-5312.jpg?w=996&t=st=1660127389~exp=1660127989~hmac=92c5457416556525d98086cddaf682459973c35aca7f9074fc6d1b6b47082c33');
+    background-image: url('../images/asian-noodles-with-tofu.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

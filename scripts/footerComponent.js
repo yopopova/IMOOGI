@@ -269,7 +269,7 @@ infoDivElement.appendChild(infoFirstLinkElement);
 
 let infoSecondLinkElement = document.createElement('a');
 infoSecondLinkElement.setAttribute('href', '#');
-infoSecondLinkElement.textContent = 'Sitemap';
+infoSecondLinkElement.textContent = 'Privacy Policy';
 infoDivElement.appendChild(infoSecondLinkElement);
 
 let copyrightDivElement = document.createElement('div');
