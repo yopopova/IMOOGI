@@ -79,7 +79,7 @@ contactsSecondParagraph.textContent = 'Email: ';
 contactsElement.appendChild(contactsSecondParagraph);
 
 let contactsSecondStrongTag = document.createElement('strong');
-contactsSecondStrongTag.textContent = 'office@imoogi.bg';
+contactsSecondStrongTag.textContent = 'order@imoogi.bg';
 contactsSecondParagraph.appendChild(contactsSecondStrongTag);
 
 let contactsThirdParagraph = document.createElement('p');
@@ -155,7 +155,7 @@ socialThirdLinkElement.setAttribute('target', '_blank');
 socialThirdLiElement.appendChild(socialThirdLinkElement);
 
 let socialThirdIconElement = document.createElement('i');
-socialThirdIconElement.setAttribute('class', 'fa-brands fa-twitter');
+socialThirdIconElement.setAttribute('class', 'fa-brands fa-x-twitter');
 socialThirdLinkElement.appendChild(socialThirdIconElement);
 
 let socialThirdSpanElement = document.createElement('span');
@@ -277,7 +277,7 @@ copyrightDivElement.setAttribute('class', 'footer-copyright');
 bottomMainDivElement.appendChild(copyrightDivElement);
 
 let copyrightFirstParagraphElemenet = document.createElement('p');
-copyrightFirstParagraphElemenet.textContent = '\u00A9 2021-2023 - IMOOGI Korean Restaurant';
+copyrightFirstParagraphElemenet.textContent = '\u00A9 2021-2024 - IMOOGI Korean Restaurant';
 copyrightDivElement.appendChild(copyrightFirstParagraphElemenet);
 
 let copyrightSecondParagraphElemenet = document.createElement('p');
