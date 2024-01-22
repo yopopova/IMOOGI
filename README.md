@@ -22,6 +22,10 @@ The app is based on:
 
 The site is optimized for search engines and the three main meta tags `title`, `description`, and `keywords` are used for the optimization. Each page contains a different description and keywords that are selected based on `AdWords clusters`. HTML `semantic tags` are also used on every page of the site.
 
+## Branding Process
+
+You can see the whole branding process [on this link](https://www.behance.net/gallery/182834033/IMOOGI-Korean-Restaurant-Brand-Identity).
+
 ## Responsive Design
 
 The app has a responsive design for different devices.
