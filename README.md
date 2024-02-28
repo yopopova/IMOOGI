@@ -32,6 +32,6 @@ The app has a responsive design for different devices.
 
 ## App Views
 
-![IMOOGI_screenshots_1](https://github.com/yopopova/IMOOGI/assets/59256039/5bea50d9-85d7-4dd5-8007-af8e36abab74)
-![IMOOGI_screenshots_2](https://github.com/yopopova/IMOOGI/assets/59256039/13ca8c43-3553-4de2-86e2-8667c5397a92)
-![IMOOGI_screenshots_3](https://github.com/yopopova/IMOOGI/assets/59256039/61d60ac5-8237-4b95-8b56-84b8a96f28ba)
+![IMOOGI_screenshots_1](https://github.com/yopopova/IMOOGI/assets/59256039/6c2b00cb-11fa-4bf1-8a23-0974bb8f6e3d)
+![IMOOGI_screenshots_2](https://github.com/yopopova/IMOOGI/assets/59256039/a28232fd-5dc5-4643-afaf-5a1726b87b09)
+![IMOOGI_screenshots_3](https://github.com/yopopova/IMOOGI/assets/59256039/f3fe6055-e9ab-42dc-b017-820e3e83afbb)
