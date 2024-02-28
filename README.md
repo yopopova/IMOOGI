@@ -29,3 +29,9 @@ You can see the whole branding process [on this link](https://www.behance.net/ga
 ## Responsive Design
 
 The app has a responsive design for different devices.
+
+## App Views
+
+![IMOOGI_screenshots_1](https://github.com/yopopova/IMOOGI/assets/59256039/5bea50d9-85d7-4dd5-8007-af8e36abab74)
+![IMOOGI_screenshots_2](https://github.com/yopopova/IMOOGI/assets/59256039/13ca8c43-3553-4de2-86e2-8667c5397a92)
+![IMOOGI_screenshots_3](https://github.com/yopopova/IMOOGI/assets/59256039/61d60ac5-8237-4b95-8b56-84b8a96f28ba)
